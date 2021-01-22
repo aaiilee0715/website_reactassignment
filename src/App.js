@@ -12,6 +12,7 @@ import {
 
 //Pages To import
 import MainPage from './pages/home';
+import Card from './components/card/card';
 
 
 
@@ -20,6 +21,7 @@ class App extends Component {
     return (
     <Router>
       <Route path="/" component={MainPage} />
+      <Route path="/" component={Card} />
     </Router>
     );
   }
