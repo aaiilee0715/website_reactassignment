@@ -1,15 +1,13 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 
+
+
 const HamsterHotelSite = () => {
-    render(
+  return(
+    <>
+    <h3>Hamster Hotel Page</h3>
+    </>
+  );
 
-
-
-
-
-
-        
-    );
 }
 export default HamsterHotelSite;
