@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(255, 127, 80, 0.13);
+}
+#title{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Parisienne', cursive;
+    color: coral;
+}
