@@ -15,13 +15,13 @@ class Cards extends Component {
         <div className="container-fluid d-flex justify-content-center">
         <div className="row">
         <div className="col-md-7"></div>
-        <Card imgsrc={poppyPix} />
+        <Card imgsrc={poppyPix} title="Business Redevelpment Website"/>
         <div className="col-md-3"></div>
-        <Card imgsrc={hamsterHotelPix} />
+        <Card imgsrc={hamsterHotelPix} title="Hamster Hotel" />
         <div className="col-md-3"></div>
-        <Card imgsrc={multiPix}/>
+        <Card imgsrc={multiPix} title="Top 10 Favorites"/>
         <div className="col-md-3"></div>
-        <Card imgsrc={puppyPix}/>
+        <Card imgsrc={puppyPix} title="Mock Puppy Restaurant"/>
         
          </div>
         </div>
