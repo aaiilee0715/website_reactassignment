@@ -2,11 +2,12 @@ body {
     background-color: rgba(255, 127, 80, 0.13);
 }
 #title{
-    font-size: 3rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Parisienne', cursive;
-    color: coral;
+    background: radial-gradient(#9e616185, #ecdcdc9a, #c54e4e42);
+    color: #554a4a;
 }
 
