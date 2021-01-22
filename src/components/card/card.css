@@ -23,13 +23,13 @@ body{
     display: flex;
     justify-content:center;
     justify-content: space-evenly;
-   
+    
 }
+
 .card-title, .card-img-top, .btn{
     display: flex;
     justify-content: center;
 }
-
 
 .card-img-top{
     transform: scale(1);

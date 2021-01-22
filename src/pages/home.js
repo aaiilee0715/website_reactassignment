@@ -11,7 +11,9 @@ const MainPage = () => {
         <Container>
             <Row>
                 <Col>
-                    <h3 id="title" className="animate__animated animate__bounce">Welcome To The Many Websites Project</h3>
+                    <h3 id="title" className="animate__animated animate__bounce">
+                        Welcome To The Many Websites Project
+                        </h3>
                 </Col>
             </Row>
         </Container>
