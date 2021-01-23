@@ -59,7 +59,7 @@ const HamsterHotelSite = () => {
               <a className="nav-link" href="#">Contact</a>
               <div>
                 <div className="nav-item d-flex align-items-end">
-                  <a><button className="btn btn-sm btn-outline-secondary" type="button">Reserve</button></a>
+                  <a><button className="btn btn-sm btn-outline-secondary mx-auto d-block" type="button">Reserve</button></a>
                 </div>
               </div>
             </div>

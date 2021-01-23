@@ -112,10 +112,11 @@ header a {
     /* background-attachment: fixed; */
 }
 
-/* .card-deck{
+.card-deck{
     flex-direction: row;
     justify-content: flex-start;
-} */
+
+}
 
   
 .ourRoomsTitle {
@@ -132,7 +133,11 @@ header a {
     font-weight: bold;
 }
 
-
+.btn {
+    margin-bottom: 5%;
+    padding-right: 15%;
+    text-align: center;
+}
 
 .lists {
     margin-bottom: 5%;
