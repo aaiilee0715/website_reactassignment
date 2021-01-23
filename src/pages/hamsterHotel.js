@@ -24,12 +24,12 @@ import Logo from '../components/images/hamsterImage/Logo.png';
 const HamsterHotelSite = () => {
   return (
     <>
-      {/* <!---Header--> */}
+      {/* <!---Navigation Header--> */}
       <header>
         <div className="container-fluid" />
         <div className="row d-flex justify-content-center header">
-          <div className="nav  d-flex justify-content-center">
-
+          <div className="nav d-flex justify-content-center">              
+           
             <div className="nav-item d-flex align-items-end">
               <a className="nav-link active" href="#">Overview</a>
             </div>
@@ -59,12 +59,13 @@ const HamsterHotelSite = () => {
               <a className="nav-link" href="#">Contact</a>
               <div>
                 <div className="nav-item d-flex align-items-end">
-                  <a><button className="btn btn-sm btn-outline-secondary mx-auto d-block" type="button">Reserve</button></a>
+                  <button className="btn btn-sm btn-outline-secondary mx-auto d-block" type="button">Reserve</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+    
       </header>
 
 {/* <!--Image Of Palm Trees--> */}

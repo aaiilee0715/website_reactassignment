@@ -15,6 +15,8 @@ body {
 
 .header {
     background: rgb(0, 3, 36, 1) 0% 0% no-repeat padding-box;
+    width: 101rem;
+    
 }
 
 .btn-outline-secondary {
@@ -47,16 +49,16 @@ header a {
     color: #FFFFFF;
 }
 
+
 /* Palm Trees Background */
 
 #palmTrees {
     background: url('../images/hamsterImage/header.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    width: 100rem;
     height: 500px;
+    position: relative;
 }
 
 #palmTrees h4 {
@@ -110,6 +112,8 @@ header a {
     background: url('../images/hamsterImage/bg2.jpg') no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
+    height: 100%;
+    width: 100%;
 }
 
 .card-deck{
