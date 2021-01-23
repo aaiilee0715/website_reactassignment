@@ -9,12 +9,12 @@ const Card = props => {
     console.log(props);
     return (
 
-        <div className="card text-center">
+        <div className="homeCard text-center">
             <div className="overflow">
-                <img src={props.imgsrc} alt="Image" className='card-img-top' />
-                <div className="card-body text-dark">
-                    <h4 className="card-title">{props.title}</h4>
-                    <p className="card-text text-secondary">{props.text}</p>
+                <img src={props.imgsrc} alt="Image" className='homeCard-img' />
+                <div className="homeCard-body text-dark">
+                    <h4 className="homeCard-title">{props.title}</h4>
+                    <p className="homeCard-text">{props.text}</p>
                     <Button href={props.projectBtn} className="projectBtn btn-info">Go To Project</Button>
                 </div>
             </div>

@@ -3,19 +3,17 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: #ffffff;
 }
 
-
-.container {
+/* .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
-}
+} */
 
 /* Nav Bar Header & Text */
 
-.header{
+.header {
     background: rgb(0, 3, 36, 1) 0% 0% no-repeat padding-box;
 }
 
@@ -49,8 +47,6 @@ header a {
     color: #FFFFFF;
 }
 
-
-
 /* Palm Trees Background */
 
 #palmTrees {
@@ -59,7 +55,6 @@ header a {
     background-position: center;
     display: flex;
     justify-content: center;
-
     width: 100%;
     height: 500px;
 }
@@ -81,10 +76,8 @@ header a {
 
 .text-block {
     background-color: rgb(0, 3, 36, 0.8);
- 
     width: 945px;
     height: 232px;
-  
 }
 
 /* H4 Title Inside TextBox */
@@ -113,15 +106,18 @@ header a {
     height: 20px;
 }
 
-
-
-.ourRooms {
-    /* background: url(../Image/bg2.jpg) no-repeat; */
+#ourRooms {
+    background: url('../images/hamsterImage/bg2.jpg') no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-   
+    /* background-attachment: fixed; */
 }
 
+/* .card-deck{
+    flex-direction: row;
+    justify-content: flex-start;
+} */
+
+  
 .ourRoomsTitle {
     color: rgb(255, 255, 255);
     font: normal normal normal 35px/44px Dosis;
@@ -136,19 +132,15 @@ header a {
     font-weight: bold;
 }
 
-.btn {
-    margin-bottom: 5%;
-    padding-right: 15%;
-    text-align: center;
-}
+
 
 .lists {
     margin-bottom: 5%;
 }
 
-.card {
+/* .card {
     align-content: space-around;
-}
+} */
 
 /*Package Section*/
 
@@ -191,8 +183,6 @@ header a {
     margin-bottom: 7%;
 }
 
-
-
 .call-out {
     padding: 20px;
     margin-bottom: 2px;
@@ -205,10 +195,6 @@ header a {
     background: rgb(0, 3, 36, 1) 0% 0% no-repeat padding-box;
     font: normal normal normal 20px/44px Dosis;
 }
-
-
-
-
 
 /*Footer*/
 
@@ -223,4 +209,3 @@ header a {
     text-align: center;
     margin-top: 30%;
 }
-
