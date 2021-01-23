@@ -15,6 +15,7 @@ import HamsterHotelSite from './pages/hamsterHotel';
 import TopTenFavorite from './pages/topTenFav';
 import MockPuppySite from './pages/mockPuppy';
 
+
 class App extends Component {
   render() {
     return (
@@ -29,6 +30,7 @@ class App extends Component {
         <Route exact path="/pages/businessRedo">
         <BusinessRedo />
         </Route>
+
 
         <Route exact path="/pages/hamsterHotel">
         <HamsterHotelSite />
