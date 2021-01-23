@@ -2,13 +2,14 @@ body{
     background: radial-gradient(#9e6161, #0000005e, #9e6161);
 }
 .card{
-    width: 19rem;
+    width: 17rem;
 }
 .card:hover{
     box-shadow: 5px 10px 20px 1px rgb(231, 207, 207);
 }
 .card-body{
     padding: 1.2rem 0 !important;
+    
 }
 .card-text{
     display: flex;
@@ -29,6 +30,7 @@ body{
 .card-title, .card-img-top, .btn{
     display: flex;
     justify-content: center;
+    
 }
 
 .card-img-top{
@@ -38,3 +40,4 @@ body{
 .card-img-top:hover{
     transform: scale(1.4);
 }
+

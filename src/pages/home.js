@@ -2,7 +2,8 @@ import React from 'react';
 import { animate__animatedanimate__bounce } from 'animate.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Style from '../components/style/home.css';
+import  '../components/style/home.css';
+import '../components/card/card.css';
 
 
 
@@ -11,9 +12,10 @@ const MainPage = () => {
         <Container>
             <Row>
                 <Col>
-                    <h3 id="title" className="animate__animated animate__bounce">
-                        Welcome To The Many Websites Project
-                        </h3>
+                    <h2 id="title" className="animate__animated animate__bounce">
+                        Welcome...
+                        </h2>
+                        <small id="small">To The Many Websites Project ♥</small>
                 </Col>
             </Row>
         </Container>

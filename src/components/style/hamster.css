@@ -1,0 +1,226 @@
+body {
+    font: normal normal normal 16px/20px Source Sans Pro;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Nav Bar Header & Text */
+
+.header{
+    background: rgb(0, 3, 36, 1) 0% 0% no-repeat padding-box;
+}
+
+.btn-outline-secondary {
+    color: #FFFFFF;
+    text-decoration: #FFFFFF;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+header li {
+    text-align: left;
+    font: normal normal normal 20px/26px Dosis;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255, 1);
+}
+
+.button {
+    border: 2px solid rgb(229, 254, 255, 1);
+}
+
+header a {
+    text-decoration: none;
+    font: normal normal normal 20px/26px Dosis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+
+
+/* Palm Trees Background */
+
+#palmTrees {
+    background: url('../images/hamsterImage/header.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 500px;
+}
+
+#palmTrees h4 {
+    text-align: center;
+    font: normal normal normal 45px/57px Dosis;
+    letter-spacing: 0px;
+    color: rgb(229, 254, 255, 1);
+    margin-top: 50px;
+}
+
+#palmTrees p {
+    text-align: center;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: rgb(229, 254, 255, 1);
+}
+
+.text-block {
+    background-color: rgb(0, 3, 36, 0.8);
+ 
+    width: 945px;
+    height: 232px;
+  
+}
+
+/* H4 Title Inside TextBox */
+
+.h4 {
+    text-align: center;
+    font: normal normal normal 45px/57px Dosis;
+    letter-spacing: 0px;
+    color: rgba(229, 254, 255, 1);
+    top: 312px;
+    left: 732px;
+    width: 456px;
+    height: 57px;
+}
+
+/* Bottom Text Inside TextBox*/
+
+.p {
+    text-align: center;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: rgb(229, 254, 255, 1);
+    top: 383px;
+    left: 751px;
+    width: 418px;
+    height: 20px;
+}
+
+
+
+.ourRooms {
+    /* background: url(../Image/bg2.jpg) no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.ourRoomsTitle {
+    color: rgb(255, 255, 255);
+    font: normal normal normal 35px/44px Dosis;
+    color: rgb(255, 255, 255, 1);
+}
+
+.call-out {
+    position: static;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.btn {
+    margin-bottom: 5%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+.lists {
+    margin-bottom: 5%;
+}
+
+.card {
+    align-content: space-around;
+}
+
+/*Package Section*/
+
+.packages {
+    color: black;
+    margin-top: 10%;
+}
+
+.startingPrice {
+    text-align: left;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: rgb(31, 81, 168, 1);
+}
+
+.fullBloomPackage {
+    width: 400px;
+    max-width: 100%;
+    /* margin-left: 100%; */
+}
+
+/*Amenites Section*/
+
+.amenitiesBG {
+    /* background-image: url(../Image/bg.jpg); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.amenitiesTitle {
+    font: normal normal normal 35px/44px Dosis;
+    color: white;
+    margin-top: 5%;
+    margin: 3%;
+}
+
+.amenitiesText {
+    color: white;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    margin-bottom: 7%;
+}
+
+
+
+.call-out {
+    padding: 20px;
+    margin-bottom: 2px;
+}
+
+/*Reserve Section*/
+
+.reservedRoom {
+    color: white;
+    background: rgb(0, 3, 36, 1) 0% 0% no-repeat padding-box;
+    font: normal normal normal 20px/44px Dosis;
+}
+
+
+
+
+
+/*Footer*/
+
+#footerAddress {
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.footer {
+    background: rgb(0, 3, 36, 1);
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+}
+

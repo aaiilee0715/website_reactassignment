@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -22,8 +20,11 @@ class App extends Component {
     return (
       <Router>
 
-        <Route exact path="/" component={MainPage} />
-        <Route exact path="/" component={Card} />
+        <Route exact path="/">
+          <MainPage />
+        </Route>
+        <Route exact path="/" component={Card}>
+        </Route>
 
         <Route exact path="/pages/businessRedo">
         <BusinessRedo />
