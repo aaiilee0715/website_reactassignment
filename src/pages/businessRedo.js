@@ -5,6 +5,15 @@ import CoffeBean from '../components/images/businessImage/coffee.png';
 import HeartCoffee from '../components/images/businessImage/o.jpg';
 import Waffles from '../components/images/businessImage/waffles.jpg';
 import Tea from '../components/images/businessImage/tea.jpg';
+import CoffeeGlass from '../components/images/businessImage/COFFEE GLASS.jpg';
+import Brew from '../components/images/businessImage/BREW.jpg';
+import Relax from '../components/images/businessImage/RELAX.jpg';
+import TeaAndCoffee from '../components/images/businessImage/TEAANDCOFFEE.jpg';
+import Coffee from '../components/images/businessImage/COFFEE.jpg';
+import Avocado from '../components/images/businessImage/AVOCADO.jpg';
+import Lunch from '../components/images/businessImage/LUNCH.jpg';
+import Morning from '../components/images/businessImage/MORNING.jpg';
+import Shop from '../components/images/businessImage/SHOP.jpg';
 
 const BusinessRedo = () => {
   return (
@@ -319,99 +328,371 @@ const BusinessRedo = () => {
         </div>
       </section>
       {/* <!-- --------The divider----------> */}
-      <div id="secCont" class="container-fluid">
-        <div class="row pt-4 bgWhite">
-          <div class="container d-flex align-items-center flex-column">
-            <h3 class="goldColor">WHAT OUR CLIENTS SAY</h3>
-            <h2 class="brownColor">TESTIMONIALS</h2>
-            <div class="card">
-              <img id="coffeeBean" src={CoffeBean} class="card-img-top" alt="coffee bean picture" />
+      <div id="secCont" className="container-fluid">
+        <div className="row pt-4 bgWhite">
+          <div className="container d-flex align-items-center flex-column">
+            <h3 className="goldColor">WHAT OUR CLIENTS SAY</h3>
+            <h2 className="brownColor">TESTIMONIALS</h2>
+            <div className="card">
+              <img id="coffeeBean" src={CoffeBean} className="card-img-top" alt="coffee bean picture" />
             </div>
           </div>
         </div>
-        <div class="row pt-4 bgWhite">
-          <div class="container">
-            <div id="carouselContent" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" aria-label="comments">
-                <div class="carousel-item active text-center p-4 pt-5">
-                  <p class="comPlaced">"Ordered from door dash. I was so impressed with the food quality and
+        <div className="row pt-4 bgWhite">
+          <div className="container">
+            <div id="carouselContent" className="carousel slide" data-ride="carousel">
+              <div className="carousel-inner" aria-label="comments">
+                <div className="carousel-item active text-center p-4 pt-5">
+                  <p className="comPlaced">"Ordered from door dash. I was so impressed with the food quality and
                   flavor. Delicious!
                   Definitely will order again."</p>
-                  <p class="userCom"><b>- Salina M</b></p>
+                  <p className="userCom"><b>- Salina M</b></p>
                 </div>
-                <div class="carousel-item text-center p-4 pt-5">
-                  <p class="comPlaced">"Coffee is better then most. Staff is friendly. I got the minty mocha
+                <div className="carousel-item text-center p-4 pt-5">
+                  <p className="comPlaced">"Coffee is better then most. Staff is friendly. I got the minty mocha
                   and my wife loves the lavender latte."</p>
-                  <p class="userCom"><b>- Eric B.</b></p>
+                  <p className="userCom"><b>- Eric B.</b></p>
                 </div>
-                <div class="carousel-item text-center p-4 pt-5">
-                  <p class="comPlaced">Great coffee here, supporting a local place, cool vibe, aren't mask
+                <div className="carousel-item text-center p-4 pt-5">
+                  <p className="comPlaced">Great coffee here, supporting a local place, cool vibe, aren't mask
                   nazis and still
                   respect choice, the OG bagel sandwich is fire! Come get a cup!</p>
-                  <p class="userCom"><b>- Michael</b></p>
+                  <p className="userCom"><b>- Michael</b></p>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+              <a className="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+              <a className="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
         </div>
       </div>
       {/* <!-- Learn more area with text and pictures --> */}
-      <div class="row pt-4 bgWhite">
-        <div class="container d-flex align-items-center flex-column">
-          <a class="goldColor1"
+      <div className="row pt-4 bgWhite">
+        <div className="container d-flex align-items-center flex-column">
+          <a className="goldColor1"
             href="https://www.google.com/search?hl=en-US&gl=us&q=Poppy+Coffee,+4343+Pacific+Ave+ste+a-1,+Stockton,+CA+95207&ludocid=17533180313257344712&lsig=AB86z5Wx42cLeryfc8BkJnIBiVBn#lrd=0x80900da569583a47:0xf3525e99a2937ec8,1"
-            target="_blank"><button type="button" class="btn btn-outline goldColor1">LEARN MORE</button></a>
-          <h2 class="brownColor">ABOUT US</h2>
-          <div class="card">
-            <img id="coffeeBean" src={CoffeBean} class="card-img-top" alt="coffee bean picture" />
+            target="_blank"><button type="button" className="btn btn-outline goldColor1">LEARN MORE</button></a>
+          <h2 className="brownColor">ABOUT US</h2>
+          <div className="card">
+            <img id="coffeeBean" src={CoffeBean} className="card-img-top" alt="coffee bean picture" />
           </div>
-          <div class="container py-2 d-flex flex-column align-items-center">
-            <div class="row ">
-              <div class="col-12">
-                <p class="learnText">Enjoy a cup of coffee, tea, or lemonade at Poppy Coffee!</p>
+          <div className="container py-2 d-flex flex-column align-items-center">
+            <div className="row ">
+              <div className="col-12">
+                <p className="learnText">Enjoy a cup of coffee, tea, or lemonade at Poppy Coffee!</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <p class="learnText"> This local coffee shop is serving up Old
+            <div className="row">
+              <div className="col-12">
+                <p className="learnText"> This local coffee shop is serving up Old
                         Soul Co. coffee from Sacramento and a wide </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <p class="learnText">menu of breakfast items, including waffles!</p>
+            <div className="row">
+              <div className="col-12">
+                <p className="learnText">menu of breakfast items, including waffles!</p>
               </div>
             </div>
           </div>
-          <div class="container">
-            <div class="row d-flex justify-content-between">
-              <div class="col-lg-4 col-md-6 pb-2 moreCentered">
-                <img src={HeartCoffee}class="img-thumbnail aboutImgs" alt="thumbnail picture 1" />
+          <div className="container">
+            <div className="row d-flex justify-content-between">
+              <div className="col-lg-4 col-md-6 pb-2 moreCentered">
+                <img src={HeartCoffee} className="img-thumbnail aboutImgs" alt="thumbnail picture 1" />
               </div>
-              <div class="col-lg-4 col-md-6 pb-2 moreCentered">
-                <img src={Waffles} class="img-thumbnail aboutImgs" alt="thumbnail picture 2" />
+              <div className="col-lg-4 col-md-6 pb-2 moreCentered">
+                <img src={Waffles} className="img-thumbnail aboutImgs" alt="thumbnail picture 2" />
+              </div>
+              <div className="col-lg-4 col-md-12 putCenter">
+                <img src={Tea} className="img-thumbnail aboutImgs" alt="thumbnail picture 3" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- Join the Experience area and pictures --> */}
+      <div className="row pt-4 bgWhite">
+        <div className="container d-flex align-items-center flex-column">
+          <h3 className="goldColor">JOIN THE</h3>
+          <h2 className="brownColor">EXPERIENCE</h2>
+          <div className="card">
+            <img id="coffeeBean" src={CoffeBean} className="card-img-top" alt="coffee bean picture" />
+          </div>
+
+          <div className="container pt-5">
+            <div className="row d-flex justify-content-between pb-2">
+
+              <div className="col-lg-4 col-md-12 putCenter pb-2">
+                <button type="button" className="btn putCenter" data-toggle="modal" data-target="#exampleModal"
+                  aria-label="modal pic">
+                  <img src={CoffeeGlass} className="img-thumbnail expTop" alt="glass of coffee" />
+                </button>
+                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-body d-flex justify-content-center">
+                        <img src={CoffeeGlass} className="img-thumbnail modalImg"
+                          alt="glass of coffee" />
+                      </div>
+                      <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                          aria-label="modal closer">Close</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-lg-4 col-md-12 putCenter">
-                  <img src={Tea} class="img-thumbnail aboutImgs" alt="thumbnail picture 3" />
+              </div>
+              <div className="col-lg-4 col-md-12 pb-2 putCenter">
+                <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal1">
+                  <img src={Brew} className="img-thumbnail expTop" alt="brew coffee" />
+                </button>
+                <div className="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-body d-flex justify-content-center">
+                        <img src={Brew} className="img-thumbnail modalImg"
+                          alt="brew coffee" />
+                      </div>
+                      <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary"
+                          data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-12 putCenter">
+                <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal2">
+                  <img src={Relax} className="img-thumbnail expTop" alt="relaxing picture" />
+                </button>
+                <div className="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-body d-flex justify-content-center">
+                        <img src={Relax} className="img-thumbnail modalImg"
+                          alt="relaxing picture" />
+                      </div>
+                      <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary"
+                          data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container pb-3">
+              <div className="row putCenter">
+                <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-end putCenter">
+                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal3"
+                    aria-label="tea and coffe">
+                    <img src={TeaAndCoffee} className="img-thumbnail expMid"
+                      alt="tea and coffee" />
+                  </button>
+                  <div className="modal fade" id="exampleModal3" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                      <div className="modal-content">
+                        <div className="modal-body d-flex justify-content-center">
+                          <img src={TeaAndCoffee} className="img-thumbnail modalImg"
+                            alt="tea and coffee" />
+                        </div>
+                        <div className="modal-footer">
+                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                            aria-label="tea closer">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-center">
+                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal4"
+                    aria-label="coffee modal">
+                    <img src={Coffee} className="img-thumbnail expMid" alt="coffee picture" />
+                  </button>
+                  <div className="modal fade" id="exampleModal4" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                      <div className="modal-content">
+                        <div className="modal-body d-flex justify-content-center">
+                          <img src={Coffee} className="img-thumbnail modalImg"
+                            alt="coffee and food picture" />
+                        </div>
+                        <div className="modal-footer">
+                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                            aria-label="coffee closer">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-start putCenter">
+                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal5"
+                    aria-label="Avocado modal">
+                    <img src={Avocado} className="img-thumbnail expMid" alt="Avocado picture" />
+                  </button>
+                  <div className="modal fade" id="exampleModal5" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                      <div className="modal-content">
+                        <div className="modal-body d-flex justify-content-center">
+                          <img src={Avocado} className="img-thumbnail modalImg"
+                            alt="Avocado sandwich" />
+                        </div>
+                        <div className="modal-footer">
+                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                            aria-label="Avocado closer">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="container pb-3">
+              <div className="row">
+                <div className="col-lg-6 col-md-12 pb-2 d-flex justify-content-end putCenter">
+                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal6"
+                    aria-label="lunch modal">
+                    <img src={Lunch} className="img-thumbnail exp2Bot" alt="salmon sandwich" />
+                  </button>
+                  <div className="modal fade" id="exampleModal6" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                      <div className="modal-content">
+                        <div className="modal-body d-flex justify-content-center">
+                          <img src={Lunch} className="img-thumbnail modalSide"
+                            alt="salman sandwich" />
+                        </div>
+                        <div className="modal-footer">
+                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                            aria-label="lunch closer">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div className="col-lg-6 col-md-12 pb-2 d-flex justify-content-start putCenter">
+                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal7"
+                    aria-label="morning modal">
+                    <img src={Morning} className="img-thumbnail exp2Bot" alt="coffee shop" />
+                  </button>
+                  <div className="modal fade" id="exampleModal7" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                      <div className="modal-content">
+                        <div className="modal-body d-flex justify-content-center">
+                          <img src={Morning} className="img-thumbnail modalSide"
+                            alt="coffee shop" />
+                        </div>
+                        <div className="modal-footer">
+                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                            aria-label="morning closer">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container pb-3">
+              <div className="row putCenter">
+                <div className="col-lg-12 col-md-12 pb-2 d-flex justify-content-center">
+                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal8"
+                    aria-label="shop modal">
+                    <img src={Shop} className="img-thumbnail exp1Bot" alt="poppy logo" />
+                  </button>
+                  <div className="modal fade" id="exampleModal8" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                      <div className="modal-content">
+                        <div className="modal-body d-flex justify-content-center">
+                          <img src={Shop} className="img-thumbnail modalSide"
+                            alt="poppy logo" />
+                        </div>
+                        <div className="modal-footer">
+                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                            aria-label="shop closer">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-    </div>
-    
-     
+        </div>
+      </div>
 
+      {/* <!-----Botttom Information-----> */}
+      <div id="botCont" className="container-fluid">
+        <div className="row bgWhite">
+          <div id="botRow" className="container py-5">
+            <div className="row d-flex justify-content-center">
 
+              <div className="col-xl-4 col-lg-6 col-md-12 d-flex justify-content-center">
+                <div className="card">
+                  <div className="card-body d-flex flex-column">
+                    <p className="card-title">LOCATIONS</p>
+                    <p className="card-text">4343 Pacific Ave
+                      Ste. A-1 STOCKTON, CA 95207</p>
+                    <a href="https://www.google.com/maps/dir//Poppy+Coffee/data=!4m8!4m7!1m0!1m5!1m1!1s0x80900da569583a47:0xf3525e99a2937ec8!2m2!1d-121.31121279999999!2d37.986981"
+                      target="_blank" className="btn btn direction">GET DIRECTION</a>
+                  </div>
+                </div>
+              </div>
 
+              <div className="col-xl-4 col-lg-6 col-md-12 d-flex justify-content-center">
+                <div className="card">
+                  <div className="card-body">
+                    <p className="card-title">CALL US</p>
+                    <p className="card-text">(209) 565-5737</p>
+                  </div>
+                </div>
+              </div>
 
+              <div className="col-xl-4 col-lg-6 hoursCard">
+                <div className="card">
+                  <div className="card-body">
+                    <p className="card-title">BUSINESS HOURS</p>
+                    <p className="card-businessText">Mon: 6:00 AM – 7:00 PM Tue: 6:00 AM – 7:00 PM Wed: 6:00 AM
+              – 7:00 PM Thu: 6:00 AM – 9:00 PM Fri: 6:00 AM – 7:00 PM Sat: 6:00 AM – 7:00 PM Sun: 6:00 AM – 7:00 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div >
+        <div className="row bgWhite d-flex justify-content-center">
+          <a className="bottomYelpImg pl-2" href="https://www.yelp.com/biz/poppy-coffee-stockton" target="_blank"><i
+            className="fab fa-yelp fa-2x"></i></a>
+          <a className="bottomFBImg" href="https://www.facebook.com/poppycoffee209/" target="_blank"><i
+            className="fab fa-facebook-f fa-2x px-2"></i></a>
+          <a className="bottomIGImg" href="https://www.instagram.com/poppycoffee_209/?hl=en" target="_blank"><i
+            className="fab fa-instagram fa-2x"></i></a>
+        </div>
+      </div >
+      {/* <!---------Footer----------> */}
+      <footer class="page-footer">
+        <div class="footer-copyright text-center py-3 copyRight">©2020 Copyright | Anothay Chansy & Juan Morales
+        </div>
+      </footer>
     </>
   );
 }
