@@ -29,21 +29,23 @@ const BusinessRedo = () => {
               <i className="fas fa-phone-alt phoneIcon px-3"></i>
               <p className="phoneText">(209) 565-5737</p>
             </div>
-            <div id="mapID" className="col-lg-3 col-sm-3  d-flex justify-content-start pt-3">
+            <div id="mapID" className="col-lg-3 col-sm-4  d-flex justify-content-start pt-3">
               <i className="fas fa-map-marker-alt locationIcon px-2"></i>
               <p className="mapText">Pacific Avenue, Stockton, CA 95207</p>
             </div>
-            <div id="toptextID" className="col-lg-4 col-sm-4  d-flex justify-content-center pt-3">
+            <div id="toptextID" className="col-lg-4 col-sm-3  d-flex justify-content-center pt-3">
               <p className="topText">Coffee & Tea, Breakfast & Brunch, Sandwiches</p>
             </div>
-            <div id="icon3ID" className="col-lg-3 col-sm-3 d-flex justify-content-center pt-3">
-              <a id="yelpPad" className="yelpImg pr-3" href="https://www.yelp.com/biz/poppy-coffee-stockton"
-                target="_blank"><i className="fab fa-yelp"></i></a>
-              <a className="fbImg pr-3" href="https://www.facebook.com/poppycoffee209/" target="_blank"
-                className="fab fa-facebook-f"></a>
-              <a className="igImg" href="https://www.instagram.com/poppycoffee_209/?hl=en" target="_blank"
-                className="fab fa-instagram"></a>
+
+            <div id="icon3ID" class="col-lg-3 col-sm-3 d-flex justify-content-center pt-3">
+              <a id="yelpPad" class="yelpImg pr-3" href="https://www.yelp.com/biz/poppy-coffee-stockton"
+                target="_blank"><i class="fab fa-yelp"></i></a>
+              <a class="fbImg pr-3" href="https://www.facebook.com/poppycoffee209/" target="_blank"><i
+                class="fab fa-facebook-f"></i></a>
+              <a class="igImg" href="https://www.instagram.com/poppycoffee_209/?hl=en" target="_blank"><i
+                class="fab fa-instagram"></i></a>
             </div>
+
           </div>
         </nav>
       </header >
@@ -646,19 +648,19 @@ const BusinessRedo = () => {
           <div id="botRow" className="container py-5">
             <div className="row d-flex justify-content-center">
 
-              <div className="col-xl-4 col-lg-6 col-md-12 d-flex justify-content-center">
+              <div className="col-xl-3">
                 <div className="card">
                   <div className="card-body d-flex flex-column">
                     <p className="card-title">LOCATIONS</p>
                     <p className="card-text">4343 Pacific Ave
                       Ste. A-1 STOCKTON, CA 95207</p>
                     <a href="https://www.google.com/maps/dir//Poppy+Coffee/data=!4m8!4m7!1m0!1m5!1m1!1s0x80900da569583a47:0xf3525e99a2937ec8!2m2!1d-121.31121279999999!2d37.986981"
-                      target="_blank" className="btn btn direction">GET DIRECTION</a>
+                      target="_blank" className="btn btn direction mx-auto d-block">GET DIRECTION</a>
                   </div>
                 </div>
               </div>
 
-              <div className="col-xl-4 col-lg-6 col-md-12 d-flex justify-content-center">
+              <div className="col-xl-3">
                 <div className="card">
                   <div className="card-body">
                     <p className="card-title">CALL US</p>
@@ -667,12 +669,14 @@ const BusinessRedo = () => {
                 </div>
               </div>
 
-              <div className="col-xl-4 col-lg-6 hoursCard">
+              <div className="col-xl-4">
                 <div className="card">
                   <div className="card-body">
                     <p className="card-title">BUSINESS HOURS</p>
                     <p className="card-businessText">Mon: 6:00 AM – 7:00 PM Tue: 6:00 AM – 7:00 PM Wed: 6:00 AM
-              – 7:00 PM Thu: 6:00 AM – 9:00 PM Fri: 6:00 AM – 7:00 PM Sat: 6:00 AM – 7:00 PM Sun: 6:00 AM – 7:00 PM</p>
+                    – 7:00 PM Thu: 6:00 AM –
+                    9:00
+                  PM Fri: 6:00 AM – 7:00 PM Sat: 6:00 AM – 7:00 PM Sun: 6:00 AM – 7:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -689,8 +693,8 @@ const BusinessRedo = () => {
         </div>
       </div >
       {/* <!---------Footer----------> */}
-      <footer class="page-footer">
-        <div class="footer-copyright text-center py-3 copyRight">©2020 Copyright | Anothay Chansy & Juan Morales
+      <footer className="page-footer">
+        <div className="footer-copyright text-center py-3 copyRight">©2020 Copyright | Anothay Chansy & Juan Morales
         </div>
       </footer>
     </>
