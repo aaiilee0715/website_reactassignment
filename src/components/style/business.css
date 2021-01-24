@@ -1,0 +1,607 @@
+body {
+    background-color: #8a735ccf;
+  }
+  
+  #outercovidArea {
+    background-color: white;
+    border: 2px solid #707070;
+    opacity: 1;
+  }
+  
+  .whiteSpace {
+    background-color: #8a735ccf;
+  }
+  
+  #innercovidArea {
+    background-color: #8a643f73;
+  }
+  
+  .fa-check {
+    color: #509749;
+  }
+  
+  h5{
+    color: #494949;
+    font-weight: bold;
+  }
+  
+  .updateText {
+    color: #494949;
+    text-shadow: none;
+    font-weight: bold;
+    text-indent: 5px;
+  }
+  
+  #upService {
+    color: #494949;
+    text-shadow: none;
+    font-weight: bold;
+    text-indent: 20px;
+  }
+  
+  #openText {
+    color: #513928;
+    font-weight: bold;
+  }
+  
+  #menuArea {
+    background: url('../images/businessImage/salad_darken_edit.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  @media only screen and (max-width: 6000px) {
+  
+    #botCont {
+      padding: 0px 150px 0px 150px;
+    }
+  
+    .middleNav {
+      padding: 0px 50px 0px 50px;
+    }
+  
+    #secCont {
+      padding: 0px 150px 0px 150px;
+    }
+    .carousel-inner {
+      padding: 0px 100px 0px 100px;
+    }
+    #botRow {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+  .topRow {
+    background-color: #8a735ccf;
+    padding: 0;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .middleNav,
+  .copyRight {
+    background-color: transparent;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .putCenter {
+      display: flex !important;
+      justify-content: center !important;
+    }
+    .hoursCard{
+      display: flex !important;
+      justify-content: center !important;
+    }
+  }
+  
+  @media only screen and (max-width: 464px) {
+    .middleNav {
+      padding: 0px 0px 0px 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 545px) {
+    #botCont {
+      padding: 0px 0px 0px 0px;
+    }
+  
+    #secCont {
+      padding: 0px 0px 0px 0px;
+    }
+  
+    .moreCentered {
+      display: flex !important;
+      justify-content: center !important;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .carousel-inner {
+      padding: 0px 0px 0px 0px;
+    }
+    #phoneID{
+      display: flex !important;
+      justify-content: center !important;
+    }
+    #mapID{
+      display: flex !important;
+      justify-content: center !important;
+    }
+    #toptextID{
+      display: flex !important;
+      justify-content: center !important;
+      padding-left: 0px !important;
+    }
+    #icon3ID{
+      display: flex !important;
+      justify-content: center !important;
+      padding-right: 0px !important;
+    }
+    #yelpPad{
+      padding-left: 0px;
+    }
+  }
+  
+  .phoneText {
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 14px;
+    display: inline;
+    padding: 0.4%;
+  }
+  
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .topRow {
+    overflow: hidden;
+  }
+  
+  .list-group-item {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .phoneIcon {
+    color: rgba(255, 255, 255, 0.836);
+    padding-left: 0.4%;
+  }
+  
+  .phoneText {
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 14px;
+    display: inline;
+    padding: 0.4%;
+  }
+  
+  .locationIcon {
+    color: rgba(255, 255, 255, 0.836);
+    padding: 0.4%;
+  }
+  
+  .mapText {
+    color: rgba(255, 255, 255, 0.836);
+    display: inline;
+  }
+  
+  .topText {
+    display: inline;
+    padding-left: 12%;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .yelpImg {
+    color: rgba(255, 255, 255, 0.836);
+    padding-left: 20%;
+  }
+  .yelpImg:hover {
+      color: #e49825;
+      padding-left: 20%;
+  }
+  
+  .fbImg {
+    color: rgba(255, 255, 255, 0.836);
+    padding-left: 1%;
+  }
+  
+  .fbImg:hover {
+      color: #e49825;
+      padding-left: 1%;
+  }
+  
+  .igImg {
+    color: rgba(255, 255, 255, 0.836);
+    padding-left: 1%;
+  }
+  
+  .igImg:hover {
+      color: #e49825;
+      padding-left: 1%;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 5px 1px black;
+  }
+  
+  h3 {
+    color: white;
+    text-shadow: 2px 5px 1px black;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .userCom {
+    font-size: 30px;
+    color: #513928;
+    text-shadow: none;
+  }
+  
+  .comPlaced {
+    color: #513928;
+    text-shadow: none;
+    font-size: 20px;
+  }
+  
+  /*-----Middle Navigation------*/
+  
+  #leftSide {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  #rightSide {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .learnText {
+    color: #513928;
+    text-shadow: none;
+    font-size: 25px;
+  }
+  
+  .goldColor {
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+    color: #996e0b;
+    text-shadow: none;
+  }
+  
+  .goldColor1{
+      font-weight: bold;
+      font-family: 'Noto Sans', sans-serif;
+      color: #996E0B;
+      text-shadow: none;
+  }
+  
+  .goldColor1:hover{
+      color: #e49825;
+      font-size: 40px;
+  }
+  
+  .btn {
+      font-weight: bold;
+      border: 2px solid white;
+      font-size: 25px;
+      animation-name: slide;
+      animation-duration: 2s;
+  }
+  
+  .fullMenuOrderBtn {
+      font-weight: bold;
+      font-size: 30px;
+      animation-name: slide;
+      animation-duration: 2s;
+  }
+  
+  .brownColor {
+    color: #513928;
+    text-shadow: none;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  .bgWhite {
+    background-color: white;
+  }
+  
+  #coffeeBean {
+    transform: scaleX(-1) rotate(180deg);
+  }
+  
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: block;
+  }
+  
+  /*---------Image--------*/
+  
+  .aboutImgs {
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .aboutImgs:hover {
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+    transform: rotate(360deg);
+  }
+  
+  .modalImg {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .storeLogoText {
+    color: white;
+    text-shadow: 2px 5px 5px black;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 50px;
+  }
+  
+  .view {
+    background-image: url('../images/businessImage/HeroImage.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
+  .heartLogo {
+    color: white;
+    font-size: 100px;
+  }
+  
+  .subtext-header {
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 60px;
+    text-shadow: 4px 7px 4px black;
+    animation-name: slide;
+    animation-duration: 2s;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .modalSide {
+    width: 700px;
+    height: 350px;
+  }
+  
+  .expTop {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .expMid {
+    width: 270px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .navbar-text {
+    color: white;
+    text-shadow: 2px 5px 5px black;
+    font-family: "Noto San", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .navbar-text:hover {
+    text-decoration: none;
+    color: #e49825;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .placeOrderBtn {
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    font-size: 25px;
+  }
+  
+  .hvr-right {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    transition-duration: 0.05s;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(223, 166, 62);
+    position: relative;
+    transition-property: color;
+  }
+  
+  .hvr-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(223, 167, 62, 0.5);
+    transition-timing-function: ease-out;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+  
+  .hvr-right:hover,
+  .hvr-right:focus,
+  .hvr-right:active {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hvr-right:hover:before,
+  .hvr-right:focus:before,
+  .hvr-right:active:before {
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transform: scaleX(1);
+  }
+  
+  /*-----------Bottom Information-------------------------------*/
+  
+  .bottomInfo {
+    background-color: white;
+    height: 400px;
+    width: 900px;
+  }
+  
+  .card-body {
+    border-style: none;
+    text-align: center;
+  }
+  
+  .card-title {
+    color: #996e0b;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .card-text {
+    color: #513928;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .card-businessText {
+    color: #513928;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .direction {
+    background-color: #513928;
+    color: #efad14;
+    font-size: 20px;
+  }
+  
+  /*--------copyRight---------*/
+  
+  .copyRight {
+    color: #513928;
+    font-family: "Noto Sans", sans-serif;
+    text-shadow: 5px 5px 5px #51392831;
+  }
+  .exp2Bot {
+    width: 410px;
+    height: 217px;
+    object-fit: cover;
+  }
+  
+  .exp1Bot {
+    width: 550px;
+    height: 217px;
+    object-fit: cover;
+  }
+  
+  .bottomYelpImg {
+    color: red;
+    display: inline-block;
+    margin: 0 10px 0 0;
+  }
+  
+  .bottomYelpImg:hover {
+      color: #e49825;
+      display: inline-block;
+      margin: 0 10px 0 0;
+  }
+  
+  .bottomFBImg {
+    display: inline-block;
+    margin: 0 10px 0 0;
+  }
+  
+  .bottomFBImg:hover {
+      color: #e49825;
+      display: inline-block;
+      margin: 0 10px 0 0;
+  }
+  
+  .bottomIGImg {
+    color: #996e0b;
+    display: inline-block;
+    margin: 0 10px 0 0;
+  }
+  
+  .bottomIGImg:hover {
+      color: #996e0b;
+      display: inline-block;
+      margin: 0 10px 0 0;
+    }
+  
+  .addIconPad{
+    padding-bottom: 5px; 
+    padding-right: 5px;
+  }
+  
+  #covidArea8{
+    background-color: white; 
+    padding-top: 50px; 
+    padding-bottom: 40px; 
+    padding-right: 0px; 
+    padding-left: 0px;
+  }
+  
+  #heroContPad{
+    padding: 0px;
+  }
+  
+  #underArea8{
+    padding: 0px;
+  }
+  
+  #garlicSandwich{
+    padding: 0px;
+  }
+  
+  .addzeroPad{
+    padding: 0px;
+  }
+  
+  #menuContPad{
+    padding-top: 300px; 
+    margin-bottom: 200px;
+  }
+  
+  #carouselContent{
+    background-color: #8A643F70;
+  }
