@@ -1,5 +1,8 @@
 import React from 'react';
+
 import '../components/style/business.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import CoffeBean from '../components/images/businessImage/coffee.png';
 import HeartCoffee from '../components/images/businessImage/o.jpg';
@@ -17,8 +20,9 @@ import Shop from '../components/images/businessImage/SHOP.jpg';
 
 const BusinessRedo = () => {
   return (
-    <>
+    <div className="businessBody">
       {/* <!------------Main Navigation-------------> */}
+
       <header>
         <div className="backToMain align-item-start">
           <a className="nav-link" href='/'>Back To Main</a>
@@ -697,7 +701,7 @@ const BusinessRedo = () => {
         <div className="footer-copyright text-center py-3 copyRight">©2020 Copyright | Anothay Chansy & Juan Morales
         </div>
       </footer>
-    </>
+    </div>
   );
 }
 export default BusinessRedo;

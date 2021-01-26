@@ -3,13 +3,13 @@ import { animate__animatedanimate__bounce } from 'animate.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import  '../components/style/home.css';
-import '../components/card/card.css';
+import '../components/CardComponent/card.css';
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MainPage = () => {
     return (
-        <Container>
+        <Container className="mainHomeBody">
             <Row>
                 <Col>
                     <h2 id="title" className="animate__animated animate__bounce">

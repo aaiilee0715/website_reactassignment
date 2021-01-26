@@ -7,9 +7,10 @@ import {
 } from "react-router-dom";
 
 
+
 //Pages To import
 import MainPage from './pages/home';
-import Card from './components/card/card';
+import CardDisplay from './components/CardComponent/card';
 import BusinessRedo from './pages/businessRedo';
 import HamsterHotelSite from './pages/hamsterHotel';
 import TopTenFavorite from './pages/topTenFav';
@@ -20,34 +21,33 @@ class App extends Component {
   render() {
     return (
       <Router>
+          <Route exact path="/">
+            <MainPage />
+            {/* <Cards /> */}
+          </Route>
 
-        <Route exact path="/">
-          <MainPage />
-        </Route>
-        <Route exact path="/" component={Card}>
-        </Route>
+          <Route exact path="/" component={CardDisplay}>
+          </Route>
 
-        <Route exact path="/pages/businessRedo">
-        <BusinessRedo />
-        </Route>
-
-
-        <Route exact path="/pages/hamsterHotel">
-        <HamsterHotelSite />
-        </Route>
-
-        <Route exact path="/pages/topTenFav">
-        <TopTenFavorite />
-        </Route>
-
-        <Route exact path="/pages/mockPuppy">
-        <MockPuppySite />
-        </Route>
+          <Route exact path="/pages/businessRedo">
+            <BusinessRedo />
+          </Route>
 
 
+          <Route exact path="/pages/hamsterHotel">
+            <HamsterHotelSite />
+          </Route>
+
+          <Route exact path="/pages/topTenFav">
+            <TopTenFavorite />
+          </Route>
+
+          <Route exact path="/pages/mockPuppy">
+            <MockPuppySite />
+          </Route>     
       </Router>
+
     );
   }
 }
-
 export default App;

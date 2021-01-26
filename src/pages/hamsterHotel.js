@@ -1,5 +1,9 @@
 import React from 'react';
+
+
 import '../components/style/hamster.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -23,13 +27,13 @@ import Logo from '../components/images/hamsterImage/Logo.png';
 
 const HamsterHotelSite = () => {
   return (
-    <>
+    <div className="hamsterBody">
       {/* <!---Navigation Header--> */}
       <header>
-        <div className="container-fluid" />
-        <div className="row d-flex justify-content-center header">
+        <div className="hamsterContainer-fluid" />
+        <div className="row d-flex justify-content-center hamsterHeader">
           <div className="backToMain align-item-start">
-          <a className="nav-link" href='/'>Back To Main</a>
+          <a className="hamsterav-link" href='/'>Back To Main</a>
             </div>
           <div className="nav col-xl-auto col-lg-12 col-md-12 col-sm-12 ">
             <div className="nav-item d-flex align-items-end">
@@ -54,7 +58,7 @@ const HamsterHotelSite = () => {
             <a className="nav-link" href="#">Contact</a>
             <div>
               <div className="nav-item d-flex align-items-end">
-                <button className="btn btn-sm btn-outline-secondary mx-auto d-block" type="button">Reserve</button>
+                <button className="hamsterBtn btn-sm btn-outline-secondary mx-auto d-block" type="button">Reserve</button>
               </div>
             </div>
           </div>
@@ -64,8 +68,8 @@ const HamsterHotelSite = () => {
       {/* <!--Image Of Palm Trees--> */}
       <section id="palmTrees" class="d-flex align-items-center justify-content-center">
         <div class="col-md-9 d-flex align-items-center justify-content-center">
-          <div class="text-block">
-            <h4>Run on the wheel of luxury</h4>
+          <div class="hamsterTextBlock">
+            <h4 >Run on the wheel of luxury</h4>
             <p>Explore everything the beach has to offer in our relaxing resort.</p>
           </div>
         </div>
@@ -97,7 +101,7 @@ const HamsterHotelSite = () => {
       {/* <!---Our Rooms--> */}
       <section id="ourRooms">
         <h1 className=" ourRoomsTitle d-flex justify-content-center">Our Rooms</h1>
-        <div className="container" >
+        <div className="hamsterContainer" >
           <div className="row d-flex align-items-center">
             <div className="d-flex justify-content-center">
               <div className="col-sm-4 py-4 m-3">
@@ -266,7 +270,7 @@ const HamsterHotelSite = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default HamsterHotelSite;
