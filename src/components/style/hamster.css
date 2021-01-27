@@ -190,10 +190,12 @@ header a {
     color: black;
     margin-top: 5%;
 }
-
+.packagesTitle{
+    color: black;
+}
 .startingPrice {
     text-align: left;
-    font: normal normal normal 16px/20px Source Sans Pro;
+    font: normal normal normal 20px/20px Source Sans Pro;
     letter-spacing: 0px;
     color: rgb(31, 81, 168, 1);
 }
@@ -201,6 +203,20 @@ header a {
 .fullBloomPackage {
     width: 400px;
     max-width: 100%;
+}
+
+#packagesCenter h2{
+    color: black;
+
+}
+#packagesCenter p{
+    color: black;
+    font: normal normal normal 20px/25px Source Sans Pro;
+}
+.packageContainer{
+    margin: 0 auto;
+    overflow: hidden;
+
    
 }
 
