@@ -13,12 +13,12 @@ const Card = props => {
     return (
         <section className="homeCardBody">
             <div className="homeCard text-center">
-                <div className="overflow h-100">
-                    <img src={props.imgsrc} alt="Image" className='homeCard-img' />
+                <div className="overflow">
+                    <img src={props.imgsrc} alt="Image" className="homeCard-img" />
                     <div className="homeCard-body text-dark">
                         <h4 className="homeCard-title">{props.title}</h4>
                         <p className="homeCard-text">{props.text}</p>
-                        <Button href={props.projectBtn} className="projectBtn btn-sm btn-info">Go To Project</Button>
+                        <Button href={props.projectBtn} className="projectBtn btn-info">Go To Project</Button>
                     </div>
                 </div>
             </div>
