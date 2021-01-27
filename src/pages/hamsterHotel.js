@@ -104,12 +104,12 @@ const HamsterHotelSite = () => {
         <div className="hamsterContainer" >
           <div className="row d-flex align-items-center">
             <div className="d-flex justify-content-center">
-              <div className="col-sm-4 py-4 m-3">
+              <div className="col-sm-3 py-4 m-3">
                 <div className="card h-100 ">
                   <img src={Room1} alt="Queen Room" className="img-fluid" />
                   <div className="card-body">
-                    <h5 className="card-title">Queen Room</h5>
-                    <p className="card-text">850 SQ FT room with city view</p>
+                    <h5 className="hamsterCardTitle">Queen Room</h5>
+                    <p className="hamsterCardText">850 SQ FT room with city view</p>
                     <li className="lists">One queen size bed</li>
                     <li className="lists">Seed Bar, fireplace and large balcony</li>
                     <li className="lists">Small kitchen with a refrigerator and stove</li>
@@ -117,12 +117,12 @@ const HamsterHotelSite = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 py-4 m-3">
+              <div className="col-sm-3 py-4 m-3">
                 <div className="card h-100">
                   <img src={Room2} alt="King Room" className="img-fluid" />
                   <div className="card-body">
-                    <h5 className="card-title">King Room</h5>
-                    <p className="card-text">950 SQ FT room with beach view</p>
+                    <h5 className="hamsterCardTitle">King Room</h5>
+                    <p className="hamsterCardText">950 SQ FT room with beach view</p>
                     <li className="lists">One king size bed</li>
                     <li className="lists">Seed Bar, fireplace and large balcony</li>
                     <li className="lists">Small kitchen with a refrigerator and stove</li>
@@ -130,12 +130,12 @@ const HamsterHotelSite = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 py-4 m-3">
+              <div className="col-sm-3 py-4 m-3">
                 <div className="card h-100 mb-9">
                   <img src={Room3} alt="Beach Side Suite" className="img-fluid" />
                   <div className="card-body">
-                    <h5 className="card-title">Beach Side Suite</h5>
-                    <p className="card-text">1500 SQ FT Suite with beach view</p>
+                    <h5 className="hamsterCardTitle">Beach Side Suite</h5>
+                    <p className="hamsterCardText">1500 SQ FT Suite with beach view</p>
                     <li className="lists">One California king size bed</li>
                     <li className="lists">Second room with fireplace, hot tub, and balcony</li>
                     <li className="lists">Seed Bar and coffee station</li>

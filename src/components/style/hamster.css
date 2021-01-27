@@ -149,10 +149,7 @@ header a {
     width: 100%;
 }
 
-/* .card-deck {
-    flex-direction: row;
-    justify-content: flex-start;
-} */
+
 
 .ourRoomsTitle {
     color: rgb(255, 255, 255);
@@ -160,13 +157,20 @@ header a {
     color: rgb(255, 255, 255, 1);
 }
 
-.call-out {
-    position: static;
+.hamsterCardTitle{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: black;
+}
+.hamsterCardText{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
-.card-text {
+/* .card-text {
     font-weight: bold;
-}
+} */
 
 .btn {
     margin-bottom: 5%;
@@ -176,11 +180,9 @@ header a {
 
 .lists {
     margin-bottom: 5%;
-}
+} 
 
-/* .card {
-    align-content: space-around;
-} */
+
 
 /*-----------Package Section---------*/
 
