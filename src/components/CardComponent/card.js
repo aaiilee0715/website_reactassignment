@@ -35,8 +35,7 @@ class CardDisplay extends Component {
                     <div className="col-md-3">
                         <CardComponent imgsrc={multiPix}
                             title="Top 10 Favorites"
-                            text="In this team project, we are to make a multi-page website that talks about our favorite video games and anime. 
-                            We are required to have at least 10 favorite video games and 10 favorite anime."
+                            text="In this team project, we are to make a multi-page website that talks about our favorite video games and anime."
                             projectBtn= "/pages/topTenFav" />
                     </div>
                     
