@@ -1,7 +1,9 @@
 import React from 'react';
+import { Carousel } from 'react-bootstrap';
 
 import '../components/style/business.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import CoffeBean from '../components/images/businessImage/coffee.png';
 import HeartCoffee from '../components/images/businessImage/o.jpg';
@@ -23,6 +25,7 @@ const BusinessRedo = () => {
       {/* <!------------Main Navigation-------------> */}
 
       <header>
+
         <div className="BusinessBackToMain align-item-start">
           <a className="nav-link" href='/'>Back To Main</a>
         </div>
@@ -338,7 +341,7 @@ const BusinessRedo = () => {
           <div className="container d-flex align-items-center flex-column">
             <h3 className="goldColor">WHAT OUR CLIENTS SAY</h3>
             <h2 className="brownColor">TESTIMONIALS</h2>
-            <div className="card">
+            <div className="coffeeBeanPart">
               <img id="coffeeBean" src={CoffeBean} className="card-img-top" alt="coffee bean picture" />
             </div>
           </div>
@@ -365,11 +368,11 @@ const BusinessRedo = () => {
                   <p className="userCom"><b>- Michael</b></p>
                 </div>
               </div>
-              <a className="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+              <a className="carousel-control-prev" href="#carouselContent" role="button" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="sr-only">Previous</span>
               </a>
-              <a className="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+              <a className="carousel-control-next" href="#carouselContent" role="button" data-bs-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
               </a>
@@ -433,7 +436,7 @@ const BusinessRedo = () => {
             <div className="row d-flex justify-content-between pb-2">
 
               <div className="col-lg-4 col-md-12 putCenter pb-2">
-                <button type="button" className="btn putCenter" data-toggle="modal" data-target="#exampleModal"
+                <button type="button" className="businessBtn putCenter" data-toggle="modal" data-target="#exampleModal"
                   aria-label="modal pic">
                   <img src={CoffeeGlass} className="img-thumbnail expTop" alt="glass of coffee" />
                 </button>
@@ -446,7 +449,7 @@ const BusinessRedo = () => {
                           alt="glass of coffee" />
                       </div>
                       <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                        <button type="button" className="businessBtn btn-secondary" data-dismiss="modal"
                           aria-label="modal closer">Close</button>
                       </div>
                     </div>
@@ -454,7 +457,7 @@ const BusinessRedo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 pb-2 putCenter">
-                <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal1">
+                <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal1">
                   <img src={Brew} className="img-thumbnail expTop" alt="brew coffee" />
                 </button>
                 <div className="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -466,7 +469,7 @@ const BusinessRedo = () => {
                           alt="brew coffee" />
                       </div>
                       <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary"
+                        <button type="button" className="businessBtn btn-secondary"
                           data-dismiss="modal">Close</button>
                       </div>
                     </div>
@@ -474,7 +477,7 @@ const BusinessRedo = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 putCenter">
-                <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal2">
+                <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal2">
                   <img src={Relax} className="img-thumbnail expTop" alt="relaxing picture" />
                 </button>
                 <div className="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -486,7 +489,7 @@ const BusinessRedo = () => {
                           alt="relaxing picture" />
                       </div>
                       <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary"
+                        <button type="button" className="businessBtn btn-secondary"
                           data-dismiss="modal">Close</button>
                       </div>
                     </div>
@@ -497,7 +500,7 @@ const BusinessRedo = () => {
             <div className="container pb-3">
               <div className="row putCenter">
                 <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-end putCenter">
-                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal3"
+                  <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal3"
                     aria-label="tea and coffe">
                     <img src={TeaAndCoffee} className="img-thumbnail expMid"
                       alt="tea and coffee" />
@@ -511,7 +514,7 @@ const BusinessRedo = () => {
                             alt="tea and coffee" />
                         </div>
                         <div className="modal-footer">
-                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                          <button type="button" className="businessBtn btn-secondary" data-dismiss="modal"
                             aria-label="tea closer">Close</button>
                         </div>
                       </div>
@@ -520,7 +523,7 @@ const BusinessRedo = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-center">
-                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal4"
+                  <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal4"
                     aria-label="coffee modal">
                     <img src={Coffee} className="img-thumbnail expMid" alt="coffee picture" />
                   </button>
@@ -533,7 +536,7 @@ const BusinessRedo = () => {
                             alt="coffee and food picture" />
                         </div>
                         <div className="modal-footer">
-                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                          <button type="button" className="businessBtn btn-secondary" data-dismiss="modal"
                             aria-label="coffee closer">Close</button>
                         </div>
                       </div>
@@ -544,7 +547,7 @@ const BusinessRedo = () => {
 
 
                 <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-start putCenter">
-                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal5"
+                  <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal5"
                     aria-label="Avocado modal">
                     <img src={Avocado} className="img-thumbnail expMid" alt="Avocado picture" />
                   </button>
@@ -557,7 +560,7 @@ const BusinessRedo = () => {
                             alt="Avocado sandwich" />
                         </div>
                         <div className="modal-footer">
-                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                          <button type="button" className="businessBtn btn-secondary" data-dismiss="modal"
                             aria-label="Avocado closer">Close</button>
                         </div>
                       </div>
@@ -570,7 +573,7 @@ const BusinessRedo = () => {
             <div className="container pb-3">
               <div className="row">
                 <div className="col-lg-6 col-md-12 pb-2 d-flex justify-content-end putCenter">
-                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal6"
+                  <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal6"
                     aria-label="lunch modal">
                     <img src={Lunch} className="img-thumbnail exp2Bot" alt="salmon sandwich" />
                   </button>
@@ -583,7 +586,7 @@ const BusinessRedo = () => {
                             alt="salman sandwich" />
                         </div>
                         <div className="modal-footer">
-                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                          <button type="button" className="businessBtn btn-secondary" data-dismiss="modal"
                             aria-label="lunch closer">Close</button>
                         </div>
                       </div>
@@ -594,7 +597,7 @@ const BusinessRedo = () => {
 
 
                 <div className="col-lg-6 col-md-12 pb-2 d-flex justify-content-start putCenter">
-                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal7"
+                  <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal7"
                     aria-label="morning modal">
                     <img src={Morning} className="img-thumbnail exp2Bot" alt="coffee shop" />
                   </button>
@@ -607,7 +610,7 @@ const BusinessRedo = () => {
                             alt="coffee shop" />
                         </div>
                         <div className="modal-footer">
-                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                          <button type="button" className="businessBtn btn-secondary" data-dismiss="modal"
                             aria-label="morning closer">Close</button>
                         </div>
                       </div>
@@ -616,10 +619,11 @@ const BusinessRedo = () => {
                 </div>
               </div>
             </div>
-            <div className="container pb-3">
+
+            <div className="container-fluid pb-3">
               <div className="row putCenter">
-                <div className="col-lg-12 col-md-12 pb-2 d-flex justify-content-center">
-                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal8"
+                <div className="col-lg-12 col-md-6 d-flex justify-content-center">
+                  <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal8"
                     aria-label="shop modal">
                     <img src={Shop} className="img-thumbnail exp1Bot" alt="poppy logo" />
                   </button>
@@ -632,7 +636,7 @@ const BusinessRedo = () => {
                             alt="poppy logo" />
                         </div>
                         <div className="modal-footer">
-                          <button type="button" className="btn btn-secondary" data-dismiss="modal"
+                          <button type="button" className="businessBtn btn-secondary" data-dismiss="modal"
                             aria-label="shop closer">Close</button>
                         </div>
                       </div>
@@ -651,19 +655,19 @@ const BusinessRedo = () => {
           <div id="botRow" className="container py-5">
             <div className="row d-flex justify-content-center">
 
-              <div className="col-xl-3">
+              <div className="col-xl-4">
                 <div className="card">
                   <div className="card-body d-flex flex-column">
                     <p className="card-title">LOCATIONS</p>
                     <p className="card-text">4343 Pacific Ave
                       Ste. A-1 STOCKTON, CA 95207</p>
                     <a href="https://www.google.com/maps/dir//Poppy+Coffee/data=!4m8!4m7!1m0!1m5!1m1!1s0x80900da569583a47:0xf3525e99a2937ec8!2m2!1d-121.31121279999999!2d37.986981"
-                      target="_blank" className="btn btn direction mx-auto d-block">GET DIRECTION</a>
+                      target="_blank" className="btn-sm direction mx-auto d-block">GET DIRECTION</a>
                   </div>
                 </div>
               </div>
 
-              <div className="col-xl-3">
+              <div className="col-xl-4">
                 <div className="card">
                   <div className="card-body">
                     <p className="card-title">CALL US</p>

@@ -162,8 +162,8 @@
     display: inline;
     padding: 0.4%;
   }
-  
-  .container,
+ 
+.container,
   .container-fluid,
   .container-lg,
   .container-md,
@@ -171,7 +171,7 @@
   .container-xl,
   .topRow {
     overflow: hidden;
-  }
+  } 
   
   .list-group-item {
     background-color: rgba(255, 255, 255, 0);
@@ -302,15 +302,14 @@
       color: #e49825;
       font-size: 40px;
   }
-  
-  /* .btn {
+ 
+.businessBtn {
       font-weight: bold;
       border: 2px solid white;
       font-size: 25px;
       animation-name: slide;
       animation-duration: 2s;
-  } */
-  
+  } 
   .fullMenuOrderBtn {
       font-weight: bold;
       font-size: 30px;
@@ -505,19 +504,19 @@
     color: #996e0b;
     font-weight: bold;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
   }
   
   .card-text {
     color: #513928;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
   }
   
   .card-businessText {
     color: #513928;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
   }
@@ -525,7 +524,7 @@
   .direction {
     background-color: #513928;
     color: #efad14;
-    font-size: 20px;
+    font-size: 19px;
   }
 
   /*--------copyRight---------*/
