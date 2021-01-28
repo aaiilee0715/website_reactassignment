@@ -28,13 +28,13 @@ import Logo from '../components/images/hamsterImage/Logo.png';
 const HamsterHotelSite = () => {
   return (
     <div className="hamsterBody">
+         <div className="hamsterBackToMain align-item-start">
+          <a className="nav-link" href='/'>Back To Main</a>
+        </div>
       {/* <!---Navigation Header--> */}
-      <header>
+      <header>      
         <div className="hamsterContainer-fluid" />
         <div className="row d-flex justify-content-center hamsterHeader">
-          <div className="backToMain align-item-start">
-          <a className="hamsterav-link" href='/'>Back To Main</a>
-            </div>
           <div className="nav col-xl-auto col-lg-12 col-md-12 col-sm-12 ">
             <div className="nav-item d-flex align-items-end">
               <a className="nav-link active" href="#">Overview</a>
@@ -156,20 +156,20 @@ const HamsterHotelSite = () => {
             <div className="col-md">
               <img src={HamsterWedding} alt="Hamster Wedding Picture" className="img-fluid" />
             </div>
-            <div className="col-6">
+            <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
               <h2 className="packagesTitle py-3">Beach Wedding package</h2>
               <h5 className="startingPrice">Starting US $1,500.00</h5>
-              <p>Feel the warmth of the beach as the flames in your hearts ignite during our
+              <p className="mt-3">Feel the warmth of the beach as the flames in your hearts ignite during our
               romantic beach side wedding. All wedding packages include catering, an open bar, and one
               tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family
           members and friends will be provided after the ceremony.</p>
             </div>
           </div>
           <div className="row">
-            <div className="col-6">
+            <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
               <h2 className="packagesTitle py-3">Full Bloom Package</h2>
               <h5 className=" startingPrice">Starting US $1,000.00</h5>
-              <p>Enjoy the shade of our cherry trees as you join us during our spring time
+              <p className="mt-3">Enjoy the shade of our cherry trees as you join us during our spring time
               celebration. We invite you to our orchards for cherry, strawberry, and apple picking
               that is open all day. We end each evening with fresh, vegetable centric dinners along with a
           live show from local musicians.</p>
@@ -182,10 +182,10 @@ const HamsterHotelSite = () => {
             <div className="col-md py-5">
               <img src={HamsterCheese} alt="Hamster Cheese" className="img-fluid" />
             </div>
-            <div className="col-6">
+            <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
               <h2 className="packagesTitle py-3">Cheese and Seed Tour Package</h2>
               <h5 className=" startingPrice ">Starting US $1,200.00</h5>
-              <p>Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We
+              <p className="mt-3">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We
               consulted with connoisseurs from around the globe to bring you the best flavors that
               nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds
           are served all day and nightly spa treatment is provided after dinner.</p>

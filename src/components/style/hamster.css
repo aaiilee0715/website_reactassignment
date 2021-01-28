@@ -6,6 +6,10 @@
     background-color: white;
 }
 
+.hamsterBackToMain{
+    background: rgb(0, 3, 36, 1);
+}
+
 .hamsterContainer {
     /* width: 80%; */
     margin: 0 auto;
@@ -14,7 +18,7 @@
 
 /* Nav Bar Header & Text */
 
-.hamsterHeader {
+.hamsterHeader{
     background: rgb(0, 3, 36, 1);
     /* width: 100rem; */
     margin: 0 auto;
@@ -192,12 +196,15 @@ header a {
 }
 .packagesTitle{
     color: black;
+    
+    
 }
 .startingPrice {
     text-align: left;
     font: normal normal normal 20px/20px Source Sans Pro;
     letter-spacing: 0px;
     color: rgb(31, 81, 168, 1);
+    
 }
 
 .fullBloomPackage {
@@ -214,10 +221,16 @@ header a {
     font: normal normal normal 20px/25px Source Sans Pro;
 }
 .packageContainer{
-    margin: 0 auto;
-    overflow: hidden;
-
-   
+    /* margin: 0 auto;
+    overflow: hidden; */
+    max-width: 100%;
+    height: 100%;
+}
+#packagesCenter{
+    text-align: justify;
+    margin: 1 auto; 
+    padding: 3rem; 
+    font-size: 2rem;
 }
 
 /*-----------Amenities Section---------*/

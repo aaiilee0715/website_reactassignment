@@ -1,7 +1,6 @@
 import React from 'react';
 
 import '../components/style/business.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import CoffeBean from '../components/images/businessImage/coffee.png';
@@ -24,7 +23,7 @@ const BusinessRedo = () => {
       {/* <!------------Main Navigation-------------> */}
 
       <header>
-        <div className="backToMain align-item-start">
+        <div className="BusinessBackToMain align-item-start">
           <a className="nav-link" href='/'>Back To Main</a>
         </div>
         <nav className="topRow" >
@@ -77,8 +76,8 @@ const BusinessRedo = () => {
           <div className="col-md-12 mb-4 white-text text-center wow fadeIn">
             <i className="far fa-heart display-3 white-text mb-0 pt-md-5 my-5 heartLogo"></i>
             <h1 className="subtext-header mt-2 mb-4">Everything is beautiful with coffee!</h1>
-            <button className="btn placeOrderBtn" href="https://orders.cake.net/11157251" target="_blank"
-              className="hvr-right">PLACE ORDER</button>
+            <button type="button" id="placeOrderBtn" href="https://orders.cake.net/11157251" target="_blank"
+              className="hvr-right text-center">PLACE ORDER</button>
           </div>
         </div>
       </div>
@@ -86,7 +85,7 @@ const BusinessRedo = () => {
       {/* <!-- COVID AREA --> */}
       <div id="outercovidArea d-flex align-items-center">
         <div className="row">
-          <div className="col-2"></div>
+          <div className="col-lg-2 d-flex justify-content-center"></div>
           <div id="covidArea8" className="col-8">
             <div id="underArea8" className="col-12">
               <div id="innercovidArea">
@@ -103,7 +102,7 @@ const BusinessRedo = () => {
                     <h3 id="upService">Updated Services</h3>
                   </div>
                 </div>
-                <div className="row">
+                <div className="row outercovidArea">
                   <div className="col-lg-2 d-flex justify-content-center align-items-center">
                     <i className="fas fa-check addIconPad"></i>
                     <h5>Outdoor seating</h5>
@@ -323,7 +322,7 @@ const BusinessRedo = () => {
                       </div>
                     </div>
                     <div id="menuContPad" className="container d-flex justify-content-center align-items-center">
-                      <button className="btn fullMenuOrderBtn" href="https://orders.cake.net/11157251"
+                      <button id="fullMenuOrderBtn" href="https://orders.cake.net/11157251"
                         target="_blank" className="hvr-right">FULL MENU</button>
                     </div>
                   </div>
