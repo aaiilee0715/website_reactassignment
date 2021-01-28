@@ -157,7 +157,7 @@ const HamsterHotelSite = () => {
               <img src={HamsterWedding} alt="Hamster Wedding Picture" className="img-fluid" />
             </div>
             <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
-              <h2 className="packagesTitle py-3">Beach Wedding package</h2>
+              <h2 className="packagesTitle">Beach Wedding package</h2>
               <h5 className="startingPrice">Starting US $1,500.00</h5>
               <p className="mt-3">Feel the warmth of the beach as the flames in your hearts ignite during our
               romantic beach side wedding. All wedding packages include catering, an open bar, and one
@@ -167,23 +167,23 @@ const HamsterHotelSite = () => {
           </div>
           <div className="row">
             <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
-              <h2 className="packagesTitle py-3">Full Bloom Package</h2>
+              <h2 className="packagesTitle mt-5">Full Bloom Package</h2>
               <h5 className=" startingPrice">Starting US $1,000.00</h5>
               <p className="mt-3">Enjoy the shade of our cherry trees as you join us during our spring time
               celebration. We invite you to our orchards for cherry, strawberry, and apple picking
               that is open all day. We end each evening with fresh, vegetable centric dinners along with a
           live show from local musicians.</p>
             </div>
-            <div className="col">
+            <div className="col-md py-2">
               <img src={HamsterSpring} alt="Hamster Spring" className="img-fluid" />
             </div>
           </div>
           <div className="row">
-            <div className="col-md py-5">
+            <div className="col-md">
               <img src={HamsterCheese} alt="Hamster Cheese" className="img-fluid" />
             </div>
             <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
-              <h2 className="packagesTitle py-3">Cheese and Seed Tour Package</h2>
+              <h2 className="packagesTitle mt-5">Cheese and Seed Tour Package</h2>
               <h5 className=" startingPrice ">Starting US $1,200.00</h5>
               <p className="mt-3">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We
               consulted with connoisseurs from around the globe to bring you the best flavors that
