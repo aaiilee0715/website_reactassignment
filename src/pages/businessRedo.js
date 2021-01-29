@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 import '../components/style/business.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import ModalComponent from '../components/modalComponent/businessModal';
 
 import CoffeBean from '../components/images/businessImage/coffee.png';
 import HeartCoffee from '../components/images/businessImage/o.jpg';
@@ -347,7 +347,7 @@ const BusinessRedo = () => {
         </div>
         <div className="row pt-4 bgWhite">
           <div className="container">
-            <div id="carouselContent" className="carousel slide" data-ride="carousel">
+            {/* <div id="carouselContent" className="carousel slide" data-ride="carousel">
               <div className="carousel-inner" aria-label="comments">
                 <div className="carousel-item active text-center p-4 pt-5">
                   <p className="comPlaced">"Ordered from door dash. I was so impressed with the food quality and
@@ -375,7 +375,38 @@ const BusinessRedo = () => {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
               </a>
-            </div>
+            </div> */}
+            <Carousel id="carouselContent" >
+              <Carousel.Item interval={1000}>
+                  <p>"Ordered from door dash. I was so impressed with the food quality and
+                  flavor. Delicious!
+                  Definitely will order again."</p>
+                <h3>- Salina M</h3>
+                <Carousel.Caption>
+
+                </Carousel.Caption>
+              </Carousel.Item>
+
+              <Carousel.Item interval={1000}>
+                <Carousel.Caption>
+                  <h3>Second slide label</h3>
+                  
+                </Carousel.Caption>
+              </Carousel.Item>
+
+
+              <Carousel.Item interval={1000}>
+           
+
+                <Carousel.Caption>
+                  <h3>Third slide label</h3>
+                 
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+
+
+
           </div>
         </div>
 
@@ -435,7 +466,7 @@ const BusinessRedo = () => {
               <div className="row d-flex justify-content-between pb-2">
 
                 <div className="col-lg-4 col-md-12 putCenter pb-2">
-                  <button type="button" className="businessBtn putCenter" data-toggle="modal" data-target="#exampleModal"
+                  {/* <button type="button" className="businessBtn putCenter" data-toggle="modal" data-target="#exampleModal"
                     aria-label="modal pic">
                     <img src={CoffeeGlass} className="img-thumbnail expTop" alt="glass of coffee" />
                   </button>
@@ -453,7 +484,11 @@ const BusinessRedo = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
+
+              <ModalComponent src={CoffeeGlass} name="hello" />
+
+
                 </div>
                 <div className="col-lg-4 col-md-12 pb-2 putCenter">
                   <button type="button" className="businessBtn" data-toggle="modal" data-target="#exampleModal1">

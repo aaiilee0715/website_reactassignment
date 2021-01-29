@@ -1,15 +1,11 @@
 import React, { Component} from 'react';
 import CardComponent from './cardUI';
-
 import './card.css';
-
 //import images
 import poppyPix from '../images/poppyPix.png';
 import hamsterHotelPix from '../images/hamster.png';
 import multiPix from '../images/multiPix.png';
 import puppyPix from '../images/puppyPix.png';
-
-
 
 class CardDisplay extends Component {
     render() {
