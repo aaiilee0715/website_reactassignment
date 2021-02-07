@@ -1,11 +1,8 @@
 import React from 'react';
-
-
 import '../components/style/hamster.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import HamsterCardDisplay from '../components/CardComponent/hamsterCardComponent';
 
 import HamsterImages from '../components/images/hamsterImage/Logo.png';
 import HamsterHome from '../components/images/hamsterImage/hamsterhomejpg.jpg';
@@ -100,53 +97,8 @@ const HamsterHotelSite = () => {
       </section>
       {/* <!---Our Rooms--> */}
       <section id="ourRooms">
-        <h1 className=" ourRoomsTitle d-flex justify-content-center">Our Rooms</h1>
-        <div className="hamsterContainer" >
-          <div className="row d-flex align-items-center">
-            <div className="d-flex justify-content-center">
-              <div className="col-sm-3 py-4 m-3">
-                <div className="card h-100 ">
-                  <img src={Room1} alt="Queen Room" className="img-fluid" />
-                  <div className="card-body">
-                    <h5 className="hamsterCardTitle">Queen Room</h5>
-                    <p className="hamsterCardText">850 SQ FT room with city view</p>
-                    <li className="lists">One queen size bed</li>
-                    <li className="lists">Seed Bar, fireplace and large balcony</li>
-                    <li className="lists">Small kitchen with a refrigerator and stove</li>
-                    <button className="ourRoom btn-lg btn-primary mx-auto d-block ">Reserve</button>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-3 py-4 m-3">
-                <div className="card h-100">
-                  <img src={Room2} alt="King Room" className="img-fluid" />
-                  <div className="card-body">
-                    <h5 className="hamsterCardTitle">King Room</h5>
-                    <p className="hamsterCardText">950 SQ FT room with beach view</p>
-                    <li className="lists">One king size bed</li>
-                    <li className="lists">Seed Bar, fireplace and large balcony</li>
-                    <li className="lists">Small kitchen with a refrigerator and stove</li>
-                    <button className="ourRoom btn-lg btn-primary mx-auto d-block">Reserve</button>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-3 py-4 m-3">
-                <div className="card h-100 mb-9">
-                  <img src={Room3} alt="Beach Side Suite" className="img-fluid" />
-                  <div className="card-body">
-                    <h5 className="hamsterCardTitle">Beach Side Suite</h5>
-                    <p className="hamsterCardText">1500 SQ FT Suite with beach view</p>
-                    <li className="lists">One California king size bed</li>
-                    <li className="lists">Second room with fireplace, hot tub, and balcony</li>
-                    <li className="lists">Seed Bar and coffee station</li>
-                    <li className="lists">Full kitchen with a refrigerator, stove, and island</li>
-                    <button className="ourRoom btn-lg btn-primary mx-auto d-block">Reserve</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h1 className=" ourRoomsTitle d-flex justify-content-center">Our Rooms</h1>    
+          <HamsterCardDisplay />   
       </section>
       {/* <!--Multi Hamster--> */}
       <section id="packagesCenter">
