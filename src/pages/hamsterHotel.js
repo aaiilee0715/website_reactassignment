@@ -1,19 +1,13 @@
 import React from 'react';
 import '../components/style/hamster.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import HamsterCardDisplay from '../components/CardComponent/hamsterCardComponent';
 import HamsterPackageDisplay from '../components/CardComponent/hamsterPackageCard';
 import HamsterAmenitiesDisplay from '../components/CardComponent/hamsterAmenitiesCard';
-
+import HamsterWearingHatDisplay from '../components/CardComponent/hamsterWearingHatCard';
 import HamsterImages from '../components/images/hamsterImage/Logo.png';
-import HamsterHome from '../components/images/hamsterImage/hamsterhomejpg.jpg';
-import AwardFinest from '../components/images/hamsterImage/awardfinest.png';
-import AwardGenuine from '../components/images/hamsterImage/awardgenuine.png';
-import AwardSatisfaction from '../components/images/hamsterImage/awardsatisfaction.png';
 import HamsterReserve from '../components/images/hamsterImage/hamsterreserve.jpg';
 import Logo from '../components/images/hamsterImage/Logo.png';
-
 const HamsterHotelSite = () => {
   return (
     <div className="hamsterBody">
@@ -67,24 +61,8 @@ const HamsterHotelSite = () => {
       <section id="hamsterHat" >
         <div className="container-fluid" >
           <div className="row d-flex justify-content-center ">
-            <div className="d-flex justify-content-center">
-              <img src={HamsterHome} alt="Hamster wearing hat" className="img-fluid" />
+            <HamsterWearingHatDisplay />
             </div>
-            <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
-              <h1>Welcome to a hamster's paradise</h1>
-              <p className="mt-5 ">Nestled in the heart of Cavia California, La Petite Maison is a luxury
-              hotel designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa,
-              and a pool with a beach side view. Inspired by the warm beauty of the California Coast, we invite you to enjoy
-                the rich accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite Maison.</p>
-              <div className="row d-flex justify-content-center m-5">
-                <div className=" col-lg-12 col-md-12 col-sm-12 py-4 m-3">
-                  <img src={AwardFinest} alt="Award Finest" className="img-fluid" />
-                  <img src={AwardGenuine} alt="Genuine" className="img-fluid" />
-                  <img src={AwardSatisfaction} alt="Satisfaction" className="img-fluid" />
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
       {/* <!---Our Rooms--> */}
@@ -106,9 +84,9 @@ const HamsterHotelSite = () => {
           <div className="row d-flex justify-content-center">
             <p className=" amenitiesText text-center">Here at La Petite Maison, we invite you to enjoy our services in hopes
             that you have the most relaxing stay we can provide.</p>
-          </div>  
-        <HamsterAmenitiesDisplay />
-     </div>
+          </div>
+          <HamsterAmenitiesDisplay />
+        </div>
       </div>
       {/* <!--Reserved a Room--> */}
       <div className="container reservedRoom my-5 p-0">
