@@ -3,18 +3,14 @@ import '../components/style/hamster.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import HamsterCardDisplay from '../components/CardComponent/hamsterCardComponent';
+import HamsterPackageDisplay from '../components/CardComponent/hamsterPackageCard';
+import HamsterAmenitiesDisplay from '../components/CardComponent/hamsterAmenitiesCard';
 
 import HamsterImages from '../components/images/hamsterImage/Logo.png';
 import HamsterHome from '../components/images/hamsterImage/hamsterhomejpg.jpg';
 import AwardFinest from '../components/images/hamsterImage/awardfinest.png';
 import AwardGenuine from '../components/images/hamsterImage/awardgenuine.png';
 import AwardSatisfaction from '../components/images/hamsterImage/awardsatisfaction.png';
-import Room1 from '../components/images/hamsterImage/room1.jpg';
-import Room2 from '../components/images/hamsterImage/room2.jpg';
-import Room3 from '../components/images/hamsterImage/room3.jpg';
-import HamsterWedding from '../components/images/hamsterImage/hamsterwedding.jpg';
-import HamsterSpring from '../components/images/hamsterImage/hamsterspring.jpg';
-import HamsterCheese from '../components/images/hamsterImage/hamstercheese.jpg';
 import Hour from '../components/images/hamsterImage/24hour.png';
 import Breakfast from '../components/images/hamsterImage/breakfast.png';
 import Valet from '../components/images/hamsterImage/valet.png';
@@ -25,11 +21,11 @@ import Logo from '../components/images/hamsterImage/Logo.png';
 const HamsterHotelSite = () => {
   return (
     <div className="hamsterBody">
-         <div className="hamsterBackToMain align-item-start">
-          <a className="nav-link" href='/'>Back To Main</a>
-        </div>
+      <div className="hamsterBackToMain align-item-start">
+        <a className="nav-link" href='/'>Back To Main</a>
+      </div>
       {/* <!---Navigation Header--> */}
-      <header>      
+      <header>
         <div className="hamsterContainer-fluid" />
         <div className="row d-flex justify-content-center hamsterHeader">
           <div className="nav col-xl-auto col-lg-12 col-md-12 col-sm-12 ">
@@ -97,53 +93,13 @@ const HamsterHotelSite = () => {
       </section>
       {/* <!---Our Rooms--> */}
       <section id="ourRooms">
-        <h1 className=" ourRoomsTitle d-flex justify-content-center">Our Rooms</h1>    
-          <HamsterCardDisplay />   
+        <h1 className=" ourRoomsTitle d-flex justify-content-center">Our Rooms</h1>
+        <HamsterCardDisplay />
       </section>
       {/* <!--Multi Hamster--> */}
       <section id="packagesCenter">
         <h1 className="packages d-flex justify-content-center m-5">Packages</h1>
-        <div className="packageContainer">
-          <div className="row">
-            <div className="col-md">
-              <img src={HamsterWedding} alt="Hamster Wedding Picture" className="img-fluid" />
-            </div>
-            <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
-              <h2 className="packagesTitle">Beach Wedding package</h2>
-              <h5 className="startingPrice">Starting US $1,500.00</h5>
-              <p className="mt-3">Feel the warmth of the beach as the flames in your hearts ignite during our
-              romantic beach side wedding. All wedding packages include catering, an open bar, and one
-              tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family
-          members and friends will be provided after the ceremony.</p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
-              <h2 className="packagesTitle mt-5">Full Bloom Package</h2>
-              <h5 className=" startingPrice">Starting US $1,000.00</h5>
-              <p className="mt-3">Enjoy the shade of our cherry trees as you join us during our spring time
-              celebration. We invite you to our orchards for cherry, strawberry, and apple picking
-              that is open all day. We end each evening with fresh, vegetable centric dinners along with a
-          live show from local musicians.</p>
-            </div>
-            <div className="col-md py-2">
-              <img src={HamsterSpring} alt="Hamster Spring" className="img-fluid" />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md">
-              <img src={HamsterCheese} alt="Hamster Cheese" className="img-fluid" />
-            </div>
-            <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12">
-              <h2 className="packagesTitle mt-5">Cheese and Seed Tour Package</h2>
-              <h5 className=" startingPrice ">Starting US $1,200.00</h5>
-              <p className="mt-3">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We
-              consulted with connoisseurs from around the globe to bring you the best flavors that
-              nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds
-          are served all day and nightly spa treatment is provided after dinner.</p>
-            </div>
-          </div>
-        </div>
+        <HamsterPackageDisplay />
       </section>
       {/* <!--Amenities Section--> */}
       <div className="container-fluid amenitiesBG">
@@ -154,29 +110,9 @@ const HamsterHotelSite = () => {
           <div className="row d-flex justify-content-center">
             <p className=" amenitiesText text-center">Here at La Petite Maison, we invite you to enjoy our services in hopes
             that you have the most relaxing stay we can provide.</p>
-          </div>
-        </div>
-        <div className="container">
-          <div className="row d-flex justify-content-center mt-5">
-            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <img className="d-sm-none d-md-flex" src={Hour} alt="24 hour logo" className="img-fluid" />
-              <p className="amenitiesText mt-4">24 Hour Room Service</p>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <img className=" d-sm-none d-md-flex" src={Breakfast} alt="Breakfast" className="img-fluid" />
-              <p className="amenitiesText mt-4">Complimentary Breakfast</p>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <img className=" d-sm-none d-md-flex" src={Valet} alt="Valet" className="img-fluid" />
-              <p className="amenitiesText mt-4">Valet Parking</p>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-              <img className=" d-sm-none d-md-flex" src={Pool} alt="Pool"
-                className="img-fluid" />
-              <p className="amenitiesText mt-4">Beachside Pool</p>
-            </div>
-          </div>
-        </div>
+          </div>  
+        <HamsterAmenitiesDisplay />
+     </div>
       </div>
       {/* <!--Reserved a Room--> */}
       <div className="container reservedRoom my-5 p-0">

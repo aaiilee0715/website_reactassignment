@@ -5,7 +5,7 @@ import '../style/hamster.css';
 
 const HamsterCard = props => {
     return (
-        <div className="overflown">
+        <div className="overflown ">
             <div className="card h-100">
                 <img src={props.imgsrc} alt="Image 1" className="img-fluid" />
                 <div className="hamsterCard-body py-4 m-3">

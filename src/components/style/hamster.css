@@ -51,6 +51,7 @@ header li {
     font: normal normal normal 20px/26px Dosis;
     letter-spacing: 0px;
     color: rgb(255, 255, 255, 1);
+    
 }
 
 .button {
@@ -184,6 +185,7 @@ header a {
 
 .lists {
     margin-bottom: 5%;
+    
 } 
 
 
