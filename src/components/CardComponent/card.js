@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import CardComponent from './cardUI';
 import './card.css';
-//import images
+
 import poppyPix from '../images/poppyPix.png';
 import hamsterHotelPix from '../images/hamster.png';
 import multiPix from '../images/multiPix.png';
@@ -25,7 +25,7 @@ class CardDisplay extends Component {
                         <CardComponent imgsrc={hamsterHotelPix}
                             title="Hamster Hotel"
                             text="In this project, we had to take the following mockup and make it into a fully functioning website." 
-                            projectBtn= "/pages/hamsterHotel"/>
+                            projectBtn="/pages/hamsterHotel"/>
                     </div>
 
                     <div className="col-md-3">

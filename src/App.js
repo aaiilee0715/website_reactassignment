@@ -20,7 +20,8 @@ import MockPuppySite from './pages/mockPuppy';
 class App extends Component {
   render() {
     return (
-      <Router>
+     
+        <Router>
           <Route exact path="/">
             <MainPage />
             {/* <Cards /> */}
@@ -44,9 +45,9 @@ class App extends Component {
 
           <Route exact path="/pages/mockPuppy">
             <MockPuppySite />
-          </Route>     
-      </Router>
+          </Route>
 
+        </Router>
     );
   }
 }

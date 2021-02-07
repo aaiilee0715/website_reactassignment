@@ -11,10 +11,6 @@ import HamsterHome from '../components/images/hamsterImage/hamsterhomejpg.jpg';
 import AwardFinest from '../components/images/hamsterImage/awardfinest.png';
 import AwardGenuine from '../components/images/hamsterImage/awardgenuine.png';
 import AwardSatisfaction from '../components/images/hamsterImage/awardsatisfaction.png';
-import Hour from '../components/images/hamsterImage/24hour.png';
-import Breakfast from '../components/images/hamsterImage/breakfast.png';
-import Valet from '../components/images/hamsterImage/valet.png';
-import Pool from '../components/images/hamsterImage/pool.png';
 import HamsterReserve from '../components/images/hamsterImage/hamsterreserve.jpg';
 import Logo from '../components/images/hamsterImage/Logo.png';
 
