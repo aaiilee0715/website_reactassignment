@@ -1,11 +1,9 @@
 import React from 'react';
 import { Carousel, Container, Row, Col, Image, Card } from 'react-bootstrap';
-
 import '../components/style/business.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ModalComponent from '../components/modalComponent/businessModal';
 import BusinessMenuDisplay from '../components/CardComponent/businessMenuCard';
-
 import CoffeBean from '../components/images/businessImage/coffee.png';
 import HeartCoffee from '../components/images/businessImage/o.jpg';
 import Waffles from '../components/images/businessImage/waffles.jpg';
@@ -19,7 +17,6 @@ import Avocado from '../components/images/businessImage/AVOCADO.jpg';
 import Lunch from '../components/images/businessImage/LUNCH.jpg';
 import Morning from '../components/images/businessImage/MORNING.jpg';
 import Shop from '../components/images/businessImage/SHOP.jpg';
-
 const BusinessRedo = () => {
   return (
     <div className="businessBody">
