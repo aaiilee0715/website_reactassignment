@@ -12,16 +12,17 @@ function BusinessModalImage(props) {
 
   return (
     <>
-      <Image src={props.src} onClick={handleShow} className="img-thumbnail expTop" alt="glass of coffee">
+      <Image src={props.src} onClick={handleShow} className="img-thumbnail expTop " alt="glass of coffee">
       </Image>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center">
-          <Image src={props.src} className="img-thumbnail modalImg">
+          <Image src={props.src} className="img-thumbnail expBot">
           </Image>
         </Modal.Body>
       </Modal>
+      
     </>
   );
 }
