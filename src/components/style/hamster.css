@@ -1,11 +1,16 @@
-body {
+.hamsterBody {
     font: normal normal normal 16px/20px Source Sans Pro;
     /* line-height: 1.5; */
     padding: 0;
     margin: 0;
+    background-color: white;
 }
 
-.container {
+.hamsterBackToMain{
+    background: rgb(0, 3, 36, 1);
+}
+
+.hamsterContainer {
     /* width: 80%; */
     margin: 0 auto;
     overflow: hidden;
@@ -13,21 +18,28 @@ body {
 
 /* Nav Bar Header & Text */
 
-.header {
+.hamsterHeader{
     background: rgb(0, 3, 36, 1);
     /* width: 100rem; */
     margin: 0 auto;
     padding: 0;
     width: 100%;
     height: 150px;
+    display: flex;
+    text-align: left;
+    font: normal normal normal 20px/26px Dosis;
+    letter-spacing: 0px;
+    text-decoration: none;
+    letter-spacing: 0px;
+    color: #FFFFFF;   
 }
 
-.btn-outline-secondary {
-    color: #FFFFFF;
-    text-decoration: #FFFFFF;
+.hamsterBtn{
+    color: white;
+    background-color: Transparent;      
 }
 
-header ul {
+ header ul {
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -39,6 +51,7 @@ header li {
     font: normal normal normal 20px/26px Dosis;
     letter-spacing: 0px;
     color: rgb(255, 255, 255, 1);
+    
 }
 
 .button {
@@ -50,7 +63,7 @@ header a {
     font: normal normal normal 20px/26px Dosis;
     letter-spacing: 0px;
     color: #FFFFFF;
-}
+} 
 
 /* Palm Trees Background */
 
@@ -83,7 +96,7 @@ header a {
     color: rgb(229, 254, 255, 1);
 }
 
-.text-block {
+.hamsterTextBlock{
     background-color: rgb(0, 3, 36, 0.8);
     width: 945px;
     height: 232px;
@@ -91,7 +104,7 @@ header a {
 
 /* H4 Title Inside TextBox */
 
-.h4 {
+.hamsterH4 {
     text-align: center;
     font: normal normal normal 45px/57px Dosis;
     letter-spacing: 0px;
@@ -104,7 +117,7 @@ header a {
 
 /* Bottom Text Inside TextBox*/
 
-.p {
+.hamsterP {
     text-align: center;
     font: normal normal normal 16px/20px Source Sans Pro;
     letter-spacing: 0px;
@@ -124,7 +137,13 @@ header a {
     font-size: 1.3rem;
    
 }
-
+#hamsterHat h1{
+    display: flex;
+    justify-content: start;
+}
+#hamsterHat p{
+    color: black;
+}
 /*-----------Our Room Section---------*/
 
 #ourRooms {
@@ -135,10 +154,7 @@ header a {
     width: 100%;
 }
 
-.card-deck {
-    flex-direction: row;
-    justify-content: flex-start;
-}
+
 
 .ourRoomsTitle {
     color: rgb(255, 255, 255);
@@ -146,13 +162,20 @@ header a {
     color: rgb(255, 255, 255, 1);
 }
 
-.call-out {
-    position: static;
+.hamsterCardTitle{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: black;
+}
+.hamsterCardText{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
-.card-text {
+/* .card-text {
     font-weight: bold;
-}
+} */
 
 .btn {
     margin-bottom: 5%;
@@ -162,30 +185,56 @@ header a {
 
 .lists {
     margin-bottom: 5%;
-}
+    
+} 
 
-/* .card {
-    align-content: space-around;
-} */
+
 
 /*-----------Package Section---------*/
 
 .packages {
     color: black;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
-
+.packagesTitle{
+    color: black;
+    margin: 1;
+    padding: 0;
+    
+}
 .startingPrice {
     text-align: left;
-    font: normal normal normal 16px/20px Source Sans Pro;
+    font: normal normal normal 20px/20px Source Sans Pro;
     letter-spacing: 0px;
     color: rgb(31, 81, 168, 1);
+    
 }
 
 .fullBloomPackage {
     width: 400px;
     max-width: 100%;
-   
+}
+
+#packagesCenter h2{
+    color: black;
+
+}
+#packagesCenter p{
+    color: black;
+    font: normal normal normal 20px/25px Source Sans Pro;
+}
+.packageContainer{
+    margin: 0 auto;
+    overflow: hidden;
+    /* max-width: 100%;
+    height: 100%; */
+}
+#packagesCenter{
+    text-align: justify;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 3rem; 
+    font-size: 2rem; 
 }
 
 /*-----------Amenities Section---------*/

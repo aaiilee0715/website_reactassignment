@@ -1,21 +1,21 @@
 import React from 'react';
-import { animate__animatedanimate__bounce } from 'animate.css';
+import {animate__bounceOut } from 'animate.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import  '../components/style/home.css';
-import '../components/card/card.css';
+import '../components/CardComponent/card.css';
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MainPage = () => {
     return (
-        <Container>
+        <Container className="mainHomeBody">
             <Row>
                 <Col>
-                    <h2 id="title" className="animate__animated animate__bounce">
+                    <h2 id="title" className="animate__bounceOut">
                         Welcome...
                         </h2>
-                        <small id="small">To The Many Websites Project ♥</small>
+                        <small id="small" className="animate__heartBeat">To The Many Websites Project ♥</small>
                 </Col>
             </Row>
         </Container>

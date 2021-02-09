@@ -1,13 +1,13 @@
-/* body {
+body{
     background: radial-gradient(#9e6161, #0000005e, #9e6161);
-} */
+}
 #title{
     font-size: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Parisienne', cursive;
-    background: radial-gradient(#9e6161, #ecdcdc9a, #c54e4e42);
+    /* background: radial-gradient(#9e6161, #ecdcdc9a, #c54e4e42); */
     color: #ebdede;
 }
 #small{
