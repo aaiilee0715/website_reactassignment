@@ -4,6 +4,7 @@ import '../components/style/business.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ModalComponent from '../components/modalComponent/businessModal';
 import BusinessMenuDisplay from '../components/CardComponent/businessMenuCard';
+import CovidAreaDisplay from '../components/CardComponent/covidAreaCard';
 import CoffeBean from '../components/images/businessImage/coffee.png';
 import HeartCoffee from '../components/images/businessImage/o.jpg';
 import Waffles from '../components/images/businessImage/waffles.jpg';
@@ -83,51 +84,11 @@ const BusinessRedo = () => {
           <div className="d-flex justify-content-center"></div>
           <div id="covidArea8" className="col-8">
             <div id="underArea8" className="col-12">
-              <div id="innercovidArea">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <h2 className="updateText">COVID-19 UPDATES</h2>
-                  </div>
-                  <div className="col-lg-6">
-                    <p id="openText">Open today until 7:00 PM</p>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-lg-6 col-md-12">
-                    <h3 id="upService">Updated Services</h3>
-                  </div>
-                </div>
-                <div className="row outercovidArea">
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Outdoor seating</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Delivery</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Phone Order</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Take-Out</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Sit-down dining</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Curbside pickup</h5>
-                  </div>
-                </div>
-              </div>
+              <CovidAreaDisplay />
             </div>
           </div>
-        </div>
       </div>
+        </div>
       {/* <!------------Menue Area---------------------> */}
       <section id="menuArea">
         <div className="container-fluid">
