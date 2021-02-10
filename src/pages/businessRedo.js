@@ -1,11 +1,10 @@
 import React from 'react';
 import { Carousel, Container, Row, Col, Image, Card } from 'react-bootstrap';
-
 import '../components/style/business.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ModalComponent from '../components/modalComponent/businessModal';
 import BusinessMenuDisplay from '../components/CardComponent/businessMenuCard';
-
+import CovidAreaDisplay from '../components/CardComponent/covidAreaCard';
 import CoffeBean from '../components/images/businessImage/coffee.png';
 import HeartCoffee from '../components/images/businessImage/o.jpg';
 import Waffles from '../components/images/businessImage/waffles.jpg';
@@ -19,7 +18,6 @@ import Avocado from '../components/images/businessImage/AVOCADO.jpg';
 import Lunch from '../components/images/businessImage/LUNCH.jpg';
 import Morning from '../components/images/businessImage/MORNING.jpg';
 import Shop from '../components/images/businessImage/SHOP.jpg';
-
 const BusinessRedo = () => {
   return (
     <div className="businessBody">
@@ -86,51 +84,11 @@ const BusinessRedo = () => {
           <div className="d-flex justify-content-center"></div>
           <div id="covidArea8" className="col-8">
             <div id="underArea8" className="col-12">
-              <div id="innercovidArea">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <h2 className="updateText">COVID-19 UPDATES</h2>
-                  </div>
-                  <div className="col-lg-6">
-                    <p id="openText">Open today until 7:00 PM</p>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-lg-6 col-md-12">
-                    <h3 id="upService">Updated Services</h3>
-                  </div>
-                </div>
-                <div className="row outercovidArea">
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Outdoor seating</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Delivery</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Phone Order</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Take-Out</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Sit-down dining</h5>
-                  </div>
-                  <div className="col-lg-2 d-flex justify-content-center align-items-center">
-                    <i className="fas fa-check addIconPad"></i>
-                    <h5>Curbside pickup</h5>
-                  </div>
-                </div>
-              </div>
+              <CovidAreaDisplay />
             </div>
           </div>
-        </div>
       </div>
+        </div>
       {/* <!------------Menue Area---------------------> */}
       <section id="menuArea">
         <div className="container-fluid">
@@ -219,31 +177,35 @@ const BusinessRedo = () => {
                 <div className="col-lg-4 col-md-12 putCenter">
                   <ModalComponent src={Relax} />
                 </div>
-                <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-end putCenter">
-                  <ModalComponent src={TeaAndCoffee} />
-                </div>
-                <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-end putCenter">
-                  <ModalComponent src={Coffee} />
-                </div>
-                <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-start putCenter">
-                  <ModalComponent src={Avocado} />
+              </div>
+              <div class="container pb-3">
+                <div class="row putCenter">
+                  <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-end putCenter">
+                    <ModalComponent src={TeaAndCoffee} />
+                  </div>
+                  <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-end putCenter">
+                    <ModalComponent src={Coffee} />
+                  </div>
+                  <div className="col-lg-4 col-md-12 pb-2 d-flex justify-content-start putCenter">
+                    <ModalComponent src={Avocado} />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="container pb-3">
-              <div className="row">
-                <div className="col-sm-4 col-md-6 pb-2 d-flex justify-content-end putCenter">
-                  <ModalComponent src={Lunch} />
-                </div>
-                <div className="col-sm-4 col-md-6 pb-2 d-flex justify-content-start putCenter">
-                  <ModalComponent src={Morning} />
+              <div className="container pb-3">
+                <div className="row">
+                  <div className="col-lg-6 col-md-12 pb-2 d-flex justify-content-end expBot">
+                    <ModalComponent src={Lunch} />
+                  </div>
+                  <div className="col-lg-6 col-md-12 pb-2 d-flex justify-content-start expBot">
+                    <ModalComponent src={Morning} />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="container-fluid">
-              <div className="row putCenter">
-                <div className="col-lg-12 col-md-6 d-flex justify-content-center">
-                  <ModalComponent src={Shop} />
+              <div class="container pb-3">
+                <div class="row putCenter">
+                  <div class="col-lg-12 col-md-12 pb-2 d-flex justify-content-center expBot">
+                    <ModalComponent src={Shop} />
+                  </div>
                 </div>
               </div>
             </div>
@@ -254,9 +216,9 @@ const BusinessRedo = () => {
               <div id="botRow" className="container py-5">
                 <div className="row d-flex justify-content-center">
                   <Card style={{ width: '18rem' }}>
-                    <Card.Body >
-                      <Card.Title>LOCATIONS</Card.Title>
-                      <Card.Subtitle className="mb-2">4343 Pacific Ave
+                    <Card.Body className="card.body" >
+                      <Card.Title className="card-title">LOCATIONS</Card.Title>
+                      <Card.Subtitle className="mb-2 card-text">4343 Pacific Ave
                       Ste. A-1 STOCKTON, CA 95207</Card.Subtitle>
                       <a href="https://www.google.com/maps/dir//Poppy+Coffee/data=!4m8!4m7!1m0!1m5!1m1!1s0x80900da569583a47:0xf3525e99a2937ec8!2m2!1d-121.31121279999999!2d37.986981"
                         target="_blank" className="btn-sm direction mx-auto d-block">GET DIRECTION</a>
@@ -264,14 +226,14 @@ const BusinessRedo = () => {
                   </Card>
                   <Card style={{ width: '18rem' }}>
                     <Card.Body >
-                      <Card.Title>CALL US</Card.Title>
-                      <Card.Subtitle className="mb-2 ">(209) 565-5737</Card.Subtitle>
+                      <Card.Title className="card-title">CALL US</Card.Title>
+                      <Card.Subtitle className="mb-2 card-text">(209) 565-5737</Card.Subtitle>
                     </Card.Body>
                   </Card>
                   <Card style={{ width: '19rem' }}>
                     <Card.Body >
                       <Card.Title>BUSINESS HOURS</Card.Title>
-                      <Card.Subtitle className="mb-2 ">Mon: 6:00 AM – 7:00 PM <br />Tue: 6:00 AM – 7:00 PM <br />Wed: 6:00 AM
+                      <Card.Subtitle className="mb-2 card-text">Mon: 6:00 AM – 7:00 PM <br />Tue: 6:00 AM – 7:00 PM <br />Wed: 6:00 AM
                       – 7:00 PM<br /> Thu: 6:00 AM – 9:00 PM <br />Fri: 6:00 AM – 7:00 PM <br />Sat: 6:00 AM – 7:00 PM <br />Sun: 6:00 AM – 7:00 PM</Card.Subtitle>
                     </Card.Body>
                   </Card>

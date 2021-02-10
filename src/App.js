@@ -15,6 +15,10 @@ import BusinessRedo from './pages/businessRedo';
 import HamsterHotelSite from './pages/hamsterHotel';
 import TopTenFavorite from './pages/topTenFav';
 import MockPuppySite from './pages/mockPuppy';
+import MockPuppyAbout from './pages/mockPuppyPages/mockPuppyAbout';
+import MockPuppyMenu from './pages/mockPuppyPages/mockPuppyMenu';
+import MockPuppyCatering from './pages/mockPuppyPages/mockPuppyCatering';
+import MockPuppyPhoto from './pages/mockPuppyPages/mockPuppyPhoto';
 
 
 class App extends Component {
@@ -34,7 +38,6 @@ class App extends Component {
             <BusinessRedo />
           </Route>
 
-
           <Route exact path="/pages/hamsterHotel">
             <HamsterHotelSite />
           </Route>
@@ -45,6 +48,22 @@ class App extends Component {
 
           <Route exact path="/pages/mockPuppy">
             <MockPuppySite />
+          </Route>
+          
+          <Route exact path="/pages/mockPuppyPages/mockPuppyAbout">
+          <MockPuppyAbout />
+          </Route>
+
+          <Route exact path="/pages/mockPuppyPages/MockPuppyMenu">
+          <MockPuppyMenu />
+          </Route>
+
+          <Route exact path="/pages/mockPuppyPages/MockPuppyCatering">
+          <MockPuppyCatering />
+          </Route>
+
+          <Route exact path="/pages/mockPuppyPages/MockPuppyPhoto">
+          <MockPuppyPhoto />
           </Route>
 
         </Router>
