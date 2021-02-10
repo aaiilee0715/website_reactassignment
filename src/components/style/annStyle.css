@@ -1,0 +1,78 @@
+annBody {
+    background-color: rgb(151, 78, 121, .9);
+    border-style: groove;
+    border-width: 40px;
+    padding: 50px;
+    border-color: rgba(173, 77, 173, 0.39);
+    position: relative;
+}
+
+.me {
+    font-size: 45px;
+    color: rgb(240, 229, 236);
+    font-family: fantasy;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+}
+
+ins {
+    color: rgb(247, 239, 245);
+    font-family: fantasy;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-decoration: underline;
+    font-size: medium;
+    position: relative;
+}
+
+a {
+    text-align: center;
+    color: rgb(26, 94, 150);
+    font-family: fantasy;
+    padding-left: 0%;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+em {
+    color: rgb(255, 248, 254);
+    padding-left: 40%;
+    font-size: small;
+    padding-left: 47%;
+    position: relative;
+}
+
+img {
+    padding-left: 40%;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-decoration: underline;
+    font-size: medium;
+    position: relative;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.hobby {
+    color: white;
+    font-family: fantasy;
+}
+
+#socialMedia {
+padding-left: 40%;
+margin: 0%;
+border-style: solid;
+border-color: rgb(151, 78, 121, .9);
+
+
+}
