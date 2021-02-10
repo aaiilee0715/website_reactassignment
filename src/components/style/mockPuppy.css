@@ -37,15 +37,16 @@
 }
 .puppyCardTitle {
     color: #5F002B;
-    font-weight: bolder;
+    font-weight:bolder;
     font-family: 'fugazOne';
+    font-size: 30px;
 }
 
 .titleAbout{
     color: #5F002B;
     font-weight: bold;
     font-family: 'fugazOne';
-    font-size: large;
+    font-size: 30px;
     margin-bottom: -2px;
 }
 
@@ -53,6 +54,7 @@
     color: #5F002B;
     font-family: 'montaukRegular';
     font-size: 16px;
+    font-weight: bolder;
     
 }
 .height100{
@@ -152,6 +154,7 @@
 .largeText{
     font-family: Mont;
     color: rgba(95, 0, 43, 1);
+    font-weight: bolder;
 }
 
 .smallText{
@@ -205,10 +208,11 @@ hr{
     
 }
 /*===============================================================================================================================================*/
-.card{
+.menuCard{
     padding: 0;
-
-
+    background-color: white;
+    width: 575px;
+    height:  775px;
 }
 
 .mainContainer{
@@ -313,7 +317,9 @@ hr{
 .font2{
     font-family: 'Mont';
     color:#5F002B;
-    font-weight: bolder;
+    font-weight: 900px;
+    background-color: white;
+    font-size: 30px;
 }
 
 .regularFont{

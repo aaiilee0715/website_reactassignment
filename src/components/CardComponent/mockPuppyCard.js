@@ -17,17 +17,17 @@ class MockPuppyDisplay extends Component {
                         <nav class="puppyNavbar navbar navbar-light bg-light col-xl-auto col-lg-12 col-md-12 col-sm-12 ">
                             <MockPuppyCardComponent
                                 imgsrc={MuzzleLogoPix}
-                                href="/pages/mockPuppy"
+                                href="./pages/mockPuppy"
                             />
                             <ul class="nav justify-content-end">
                                 <li class="nav-item puppyNavText">
                                     <a class="nav-link puppyNavText" href="/pages/mockPuppyPages/mockPuppyAbout">About</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link puppyNavText" href="../pages/foodMenu.html">Menu</a>
+                                    <a class="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyMenu">Menu</a>
                                 </li>
                                 <li class="nav-item puppyNavText">
-                                    <a class="nav-link puppyNavText" href="../pages/catering.html">Catering</a>
+                                    <a class="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyCatering">Catering</a>
                                 </li>
                                 <li class="nav-item puppyNavText">
                                     <a class="nav-link puppyNavText" href="../pages/photos.html">Photos</a>
@@ -49,7 +49,7 @@ class MockPuppyDisplay extends Component {
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-lg-12 col-md-12">
-                                                <h1 className="textColor font2 pt-4 pl-4">Muzzles Sandwiches & Grill</h1>
+                                                <h1 className="largeText font2 pt-4 pl-4">Muzzles Sandwiches & Grill</h1>
                                                 <p className="regularFont pl-4 pr-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                                                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -63,7 +63,6 @@ class MockPuppyDisplay extends Component {
                             </div>
                         </div>
                     </div>
-
                     <footer className="container">
                         <div className="puppyFooter">
                             {/* <!-- Grid row--> */}
@@ -81,23 +80,8 @@ class MockPuppyDisplay extends Component {
                             </div>
                         </div>
                     </footer >
-
-
-
-
-
-
-
-
-
-
                 </body>
-
-
-
-
             </>
-
         );
     }
 }

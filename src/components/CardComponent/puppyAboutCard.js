@@ -5,27 +5,33 @@ import PuppyAboutCardComponent from '../CardComponent/puppyAboutUI';
 import MuzzleLogoPix from '../images/puppyMockupImage/MuzzlesLogo.png';
 import AboutMePix from '../images/puppyMockupImage/AboutMain.jpg';
 import CompanyLogoPix from '../images/puppyMockupImage/CompanyLogo.png';
+import GeorgePix from '../images/puppyMockupImage/doxie3.jpg';
+import JackPix from '../images/puppyMockupImage/jackrussel.jpg';
+import LouiPix from '../images/puppyMockupImage/doxie1.jpg';
+import WillowPix from '../images/puppyMockupImage/novascotia.jpg';
+import SkittlesPix from '../images/puppyMockupImage/doxie2.jpg';
+import MarioPix from '../images/puppyMockupImage/staffie.jpg';
 
 class PuppyAboutDisplay extends Component {
     render() {
         return (
             <>
-                <body class="puppyBody">
+                <body className="puppyBody">
                     <div className="container containerwidth">
                         <nav className="puppyNavbar navbar navbar-light bg-light col-xl-auto col-lg-12 col-md-12 col-sm-12 ">
                             <PuppyAboutCardComponent
                                 imgsrc={MuzzleLogoPix}
-                                href="/pages/mockPuppy"
+                                link="/pages/mockPuppy"
                             />
                             <ul className="nav justify-content-end">
                                 <li className="nav-item puppyNavText">
-                                    <a className="nav-link puppyNavText" href="../pages/about.html">About</a>
+                                    <a className="nav-link puppyNavText" href="/pages/mockPuppyPages/mockPuppyAbout">About</a>
                                 </li>
                                 <li className="nav-item ">
-                                    <a className="nav-link puppyNavText" href="../pages/foodMenu.html">Menu</a>
+                                    <a className="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyMenu">Menu</a>
                                 </li>
                                 <li className="nav-item puppyNavText">
-                                    <a className="nav-link puppyNavText" href="../pages/catering.html">Catering</a>
+                                    <a className="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyCatering">Catering</a>
                                 </li>
                                 <li className="nav-item puppyNavText">
                                     <a className="nav-link puppyNavText" href="../pages/photos.html">Photos</a>
@@ -36,14 +42,14 @@ class PuppyAboutDisplay extends Component {
                     </div>
                     <div>
                         {/* <!--The Story--> */}
-                        <div class="container puppyBody">
-                            <div class="row">
-                                <div class="col-md-6 d-flex justify-content-end my-4">
-                                    <img src={AboutMePix} alt="about me" class="img-fluid height100" />
+                        <div className="container puppyBody">
+                            <div className="row">
+                                <div className="col-md-6 d-flex justify-content-end my-4">
+                                    <img src={AboutMePix} alt="about me" className="img-fluid height100" />
                                 </div>
-                                <div class="col-md-6 story my-4">
-                                    <h1 class="grillStory py-3 ">The Story Behind the Grill</h1>
-                                    <p class="grillStoryText">Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mattis
+                                <div className="col-md-6 story my-4">
+                                    <h1 className="grillStory py-3 ">The Story Behind the Grill</h1>
+                                    <p className="grillStoryText">Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mattis
                                     molestie a iaculis at erat pellentesque adipiscing commodo. Quisque non tellus orci ac auctor augue.
                                     Tincidunt augue interdum velit euismod in pellentesque massa. Vel pharetra vel turpis nunc. Risus
                                     pretium quam vulputate dignissim suspendisse in est. Viverra nibh cras pulvinar mattis nunc sed
@@ -71,44 +77,44 @@ class PuppyAboutDisplay extends Component {
                         </div>
 
                         {/* <!--Our Team--> */}
-                        <div class="container d-flex justify-content-center ourTeam ">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h1 class="ourTeam">Our Team</h1>
+                        <div className="container d-flex justify-content-center ourTeam ">
+                            <div className="row">
+                                <div className="col-12">
+                                    <h1 className="ourTeam">Our Team</h1>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="container my-3 ">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-md-4">
-                                    <div class="card my-3">
-                                        <img src="../image/doxie3.jpg" class="card-img-top" alt="George" />
-                                        <div class="card-body">
-                                            <h5 class="card-title">George</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+                        <div className="container my-3 ">
+                            <div className="row d-flex justify-content-center">
+                                <div className="col-md-4">
+                                    <div className="card my-3">
+                                        <img src={GeorgePix} className="card-img-top" alt="George" />
+                                        <div className="card-body">
+                                            <h5 className="puppyCardTitle">George</h5>
+                                            <p className="puppyCardText ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div class="col-md-4">
-                                    <div class="card my-3">
-                                        <img src="../image/jackrussel.jpg" class="card-img-top" alt="Jack" />
-                                        <div class="card-body">
-                                            <h5 class="card-title">Butterscotch</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
+                                <div className="col-md-4">
+                                    <div className="card my-3">
+                                        <img src={JackPix} className="card-img-top" alt="Jack" />
+                                        <div className="card-body">
+                                            <h5 className="puppyCardTitle">Butterscotch</h5>
+                                            <p className="puppyCardText ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div class="col-md-4">
-                                    <div class="card my-3">
-                                        <img src="../image/doxie1.jpg" class="card-img-top" alt="Louie" />
-                                        <div class="card-body">
-                                            <h5 class="card-title">Louie</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <div className="col-md-4">
+                                    <div className="card my-3">
+                                        <img src={LouiPix} className="card-img-top" alt="Louie" />
+                                        <div className="card-body">
+                                            <h5 className="puppyCardTitle">Louie</h5>
+                                            <p className="puppyCardText ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed
                                             sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu
                             augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
@@ -117,12 +123,12 @@ class PuppyAboutDisplay extends Component {
                                 </div>
 
 
-                                <div class="col-md-4">
-                                    <div class="card my-3">
-                                        <img src="../image/novascotia.jpg" class="card-img-top" alt="Willow" />
-                                        <div class="card-body">
-                                            <h5 class="card-title">Willow</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <div className="col-md-4">
+                                    <div className="card my-3">
+                                        <img src={WillowPix} className="card-img-top" alt="Willow" />
+                                        <div className="card-body">
+                                            <h5 className="puppyCardTitle">Willow</h5>
+                                            <p className="puppyCardText ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed
                                             sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu
                             augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
@@ -130,12 +136,12 @@ class PuppyAboutDisplay extends Component {
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
-                                    <div class="card my-3">
-                                        <img src="../image/doxie2.jpg" class="card-img-top" alt="Skittles" />
-                                        <div class="card-body">
-                                            <h5 class="card-title">Skittles</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <div className="col-md-4">
+                                    <div className="card my-3">
+                                        <img src={SkittlesPix} className="card-img-top" alt="Skittles" />
+                                        <div className="card-body">
+                                            <h5 className="puppyCardTitle">Skittles</h5>
+                                            <p className="puppyCardText ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed
                                             sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu
                             augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
@@ -143,12 +149,12 @@ class PuppyAboutDisplay extends Component {
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
-                                    <div class="card my-3">
-                                        <img src="../image/staffie.jpg" class="card-img-top" alt="Mario" />
-                                        <div class="card-body">
-                                            <h5 class="card-title">Mario</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                <div className="col-md-4">
+                                    <div className="card my-3">
+                                        <img src={MarioPix} className="card-img-top" alt="Mario" />
+                                        <div className="card-body">
+                                            <h5 className="puppyCardTitle">Mario</h5>
+                                            <p className="puppyCardText ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed
                                             sed risus. Feugiat scelerisque varius morbi enim. Scelerisque eu ultrices vitae auctor eu
                             augue ut lectus arcu. Odio facilisis mauris sit amet massa vitae.</p>
@@ -158,18 +164,18 @@ class PuppyAboutDisplay extends Component {
                             </div>
                         </div>
 
-                        <footer class="container">
-                            <div class="puppyFooter">
+                        <footer className="container">
+                            <div className="puppyFooter">
                                 {/* <!-- Grid row--> */}
-                                <div class="row py-4 d-flex align-items-center">
+                                <div className="row py-4 d-flex align-items-center">
                                     {/* <!-- Grid column --> */}
-                                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 footerPad">
-                                        <h6 class="puppyFooterText">1357 Mutt Street, Rottweiler CA. 12345 <br /> Phone: 123-456-7890</h6>
+                                    <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 footerPad">
+                                        <h6 className="puppyFooterText">1357 Mutt Street, Rottweiler CA. 12345 <br /> Phone: 123-456-7890</h6>
                                     </div>
                                     {/* <!-- Grid column --> */}
-                                    <div class="col-md-6 col-lg-7 col-sm-12 text-center text-md-right logo-container footerPad">
-                                        <img src={CompanyLogoPix} alt="companyLogo" class="img-fluid" height="32px" width="100px" />
-                                        <p class="puppyFooterText">Copyright © Muzzles Restaurant</p>
+                                    <div className="col-md-6 col-lg-7 col-sm-12 text-center text-md-right logo-container footerPad">
+                                        <img src={CompanyLogoPix} alt="companyLogo" className="img-fluid" height="32px" width="100px" />
+                                        <p className="puppyFooterText">Copyright © Muzzles Restaurant</p>
                                     </div>
                                     {/* <!-- Grid column --> */}
                                 </div>

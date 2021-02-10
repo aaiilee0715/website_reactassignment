@@ -16,6 +16,8 @@ import HamsterHotelSite from './pages/hamsterHotel';
 import TopTenFavorite from './pages/topTenFav';
 import MockPuppySite from './pages/mockPuppy';
 import MockPuppyAbout from './pages/mockPuppyPages/mockPuppyAbout';
+import MockPuppyMenu from './pages/mockPuppyPages/mockPuppyMenu';
+import MockPuppyCatering from './pages/mockPuppyPages/mockPuppyCatering';
 
 
 class App extends Component {
@@ -49,6 +51,14 @@ class App extends Component {
           
           <Route exact path="/pages/mockPuppyPages/mockPuppyAbout">
           <MockPuppyAbout />
+          </Route>
+
+          <Route exact path="/pages/mockPuppyPages/MockPuppyMenu">
+          <MockPuppyMenu />
+          </Route>
+
+          <Route exact path="/pages/mockPuppyPages/MockPuppyCatering">
+          <MockPuppyCatering />
           </Route>
 
         </Router>

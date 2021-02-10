@@ -4,9 +4,10 @@ import '../style/mockPuppy.css';
 const PuppyAboutCenter = props => {
     return (
         <>
+        <a href={props.link}>
           <img src={props.imgsrc} alt="Muzzles Logo" />
+          </a>
         </>
-
     );
 }
 export default PuppyAboutCenter;
