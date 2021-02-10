@@ -30,7 +30,7 @@ class MockPuppyDisplay extends Component {
                                     <a class="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyCatering">Catering</a>
                                 </li>
                                 <li class="nav-item puppyNavText">
-                                    <a class="nav-link puppyNavText" href="../pages/photos.html">Photos</a>
+                                    <a class="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyPhoto">Photos</a>
                                 </li>
                             </ul>
                         </nav>

@@ -34,7 +34,7 @@ class PuppyAboutDisplay extends Component {
                                     <a className="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyCatering">Catering</a>
                                 </li>
                                 <li className="nav-item puppyNavText">
-                                    <a className="nav-link puppyNavText" href="../pages/photos.html">Photos</a>
+                                    <a className="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyPhoto">Photos</a>
                                 </li>
                             </ul>
                         </nav>

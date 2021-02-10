@@ -31,7 +31,7 @@ class PuppyCateringDisplay extends Component {
                                     <a className="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyCatering">Catering</a>
                                 </li>
                                 <li className="nav-item puppyNavText">
-                                    <a className="nav-link puppyNavText" href="../pages/photos.html">Photos</a>
+                                    <a className="nav-link puppyNavText" href="/pages/mockPuppyPages/MockPuppyPhoto">Photos</a>
                                 </li>
                             </ul>
                         </nav>
@@ -41,7 +41,7 @@ class PuppyCateringDisplay extends Component {
                     <div className="container">
                         <div className="row py-2 d-flex justify-content-center noPad">
                             <div className="col-lg-12 d-flex justify-content-center title font2">
-                                <h1>Catering</h1>
+                                <h1 className="largeText">Catering</h1>
                             </div>
                         </div>
                         <div className="container d-flex justify-content-center">
@@ -61,7 +61,7 @@ class PuppyCateringDisplay extends Component {
                             </div>
 
                             <div className="col-md-6 cateringService my-4">
-                                <h2 className="puppyTitle py-3">Our Catering Services</h2>
+                                <h2 className="puppyTitle largeText py-3">Our Catering Services</h2>
                                 <p className="puppyCardText">Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed
                                 libero enim sed
                                 faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet.

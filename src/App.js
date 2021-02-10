@@ -18,6 +18,7 @@ import MockPuppySite from './pages/mockPuppy';
 import MockPuppyAbout from './pages/mockPuppyPages/mockPuppyAbout';
 import MockPuppyMenu from './pages/mockPuppyPages/mockPuppyMenu';
 import MockPuppyCatering from './pages/mockPuppyPages/mockPuppyCatering';
+import MockPuppyPhoto from './pages/mockPuppyPages/mockPuppyPhoto';
 
 
 class App extends Component {
@@ -59,6 +60,10 @@ class App extends Component {
 
           <Route exact path="/pages/mockPuppyPages/MockPuppyCatering">
           <MockPuppyCatering />
+          </Route>
+
+          <Route exact path="/pages/mockPuppyPages/MockPuppyPhoto">
+          <MockPuppyPhoto />
           </Route>
 
         </Router>
