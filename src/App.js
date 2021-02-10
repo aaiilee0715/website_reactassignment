@@ -15,6 +15,7 @@ import BusinessRedo from './pages/businessRedo';
 import HamsterHotelSite from './pages/hamsterHotel';
 import TopTenFavorite from './pages/topTenFav';
 import MockPuppySite from './pages/mockPuppy';
+import MockPuppyAbout from './pages/mockPuppyPages/mockPuppyAbout';
 
 
 class App extends Component {
@@ -46,6 +47,9 @@ class App extends Component {
             <MockPuppySite />
           </Route>
           
+          <Route exact path="/pages/mockPuppyPages/mockPuppyAbout">
+          <MockPuppyAbout />
+          </Route>
 
         </Router>
     );

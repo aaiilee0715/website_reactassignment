@@ -17,10 +17,11 @@ class MockPuppyDisplay extends Component {
                         <nav class="puppyNavbar navbar navbar-light bg-light col-xl-auto col-lg-12 col-md-12 col-sm-12 ">
                             <MockPuppyCardComponent
                                 imgsrc={MuzzleLogoPix}
+                                href="/pages/mockPuppy"
                             />
                             <ul class="nav justify-content-end">
                                 <li class="nav-item puppyNavText">
-                                    <a class="nav-link puppyNavText" href="../pages/about.html">About</a>
+                                    <a class="nav-link puppyNavText" href="/pages/mockPuppyPages/mockPuppyAbout">About</a>
                                 </li>
                                 <li class="nav-item ">
                                     <a class="nav-link puppyNavText" href="../pages/foodMenu.html">Menu</a>
