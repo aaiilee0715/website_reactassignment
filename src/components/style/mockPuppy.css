@@ -1,0 +1,323 @@
+/*----------------------------------Ann CSS------------------*/
+/*Font*/
+
+
+/*Header and Logo*/
+
+.puppyBody, .puppyNavbar {
+    background-image: url('../images/puppyMockupImage/bgtexture.jpg');
+    
+}
+
+.puppyNavText {
+    font-family: 'fugazOne';
+    font-size: 20px;
+    list-style: none;
+    color: #5F002B;
+    font-weight: bolder;
+}
+
+/*About Me*/
+
+.containerFlex{
+    display: flex;
+}
+
+
+.puppyImg {
+    max-width: 100%;
+}
+
+.grillStory, .ourTeam{
+    color: #5F002B;
+    font-weight: bolder;
+    font-family: 'fugazOne';
+    font-size: 30px;
+   
+}
+.puppyCardTitle {
+    color: #5F002B;
+    font-weight: bolder;
+    font-family: 'fugazOne';
+}
+
+.titleAbout{
+    color: #5F002B;
+    font-weight: bold;
+    font-family: 'fugazOne';
+    font-size: large;
+    margin-bottom: -2px;
+}
+
+.grillStoryText, .puppyCardText {
+    color: #5F002B;
+    font-family: 'montaukRegular';
+    font-size: 16px;
+    
+}
+.height100{
+    
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.story {
+    background-color: white;
+    font-size: 40px;
+   
+}
+
+/*Our Team*/
+
+.ourTeam {
+    background-color: white;
+    color: #5F002B;
+    font-size: 30px;
+}
+
+/*Footer*/
+
+
+.puppyFooterText, .puppyLogoText {
+    font-family: 'montaukRegular';
+    color: #5F002B;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.logo-container img{
+    width: 150px;
+    height: auto;
+}
+/*Our Catering Service*/
+
+.cateringService {
+    background-color: white;  
+    font-size: 40px;
+}
+
+
+/* ==========================================Victor bottom css============================================================================= */
+
+#colorNav{
+    color:rgba(95, 0, 43, 1);
+    font-family: fugazOne;
+    font-size: 24px;
+}
+.puppyTitle{
+    font-family: fugazOne;
+    color:rgba(95, 0, 43, 1);
+    background-color: rgba(255, 255, 255, 1);
+    
+
+}
+.noPad{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#puppyFooterStyle{
+    font-family: RegularMOn;
+    color:rgba(95, 0, 43, 1);
+}
+
+
+#puppyImage{
+    border: 5px solid white;
+
+  
+
+}
+.colImage{
+ margin: 0px;
+
+    
+}
+
+
+/*===============================================================================================================================================*/
+.card{
+    padding: 0;
+
+}
+
+.mainContainer{
+    padding:0;
+}
+.cardPadding{
+    padding:0;
+}
+
+.largeText{
+    font-family: Mont;
+    color: rgba(95, 0, 43, 1);
+}
+
+.smallText{
+    font-family: RegularMon;
+    color: rgba(95, 0, 43, 1);
+    font-size: smaller;
+}
+
+hr{
+    color:rgba(95, 0, 43, 1);
+    background-color: rgba(95, 0, 43, 1);
+    height: 2px;
+}
+
+.margin1{
+    margin-bottom: -12px;
+}
+.margin2{
+    margin-bottom: -20px;
+}
+.margin3{
+    margin-top:-22px;
+}#colorNav{
+    color:rgba(95, 0, 43, 1);
+    font-family: BoldMon;
+    font-size: 24px;
+}
+.puppyTitle{
+    font-family: BoldMon;
+    color:rgba(95, 0, 43, 1);
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+#footerStyle{
+    font-family: RegularMOn;
+    color:rgba(95, 0, 43, 1);
+}
+
+
+#image{
+    border: 5px solid white;
+
+  
+
+}
+.colImage{
+    margin-bottom: 10px;
+    
+}
+/*===============================================================================================================================================*/
+.card{
+    padding: 0;
+
+
+}
+
+.mainContainer{
+    padding:0;
+}
+.cardPadding{
+    padding:0;
+}
+
+.largeText{
+    font-family: MontaukRegular;
+    color: rgba(95, 0, 43, 1);
+
+}
+
+.smallText{
+    font-family: RegularMon;
+    color: rgba(95, 0, 43, 1);
+    font-size: small;
+}
+
+hr{
+    color:rgba(95, 0, 43, 1);
+    background-color: rgba(95, 0, 43, 1);
+    height: 2px;
+}
+
+.margin1{
+    margin-bottom: -12px;
+}
+.margin2{
+    margin-bottom: -20px;
+}
+.margin3{
+    margin-top:-22px;
+}
+.footerPad{
+    padding:0;
+    margin: 0;
+}
+
+ .card-body2{
+    overflow:scroll;
+    height: 600px;
+    overflow: auto;
+}
+
+
+/*============================================Demitri's CSS===================================================================================*/
+.heroImage{
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+}
+.homeImg{
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    padding-top: 12%;
+}
+.marginTop{
+    margin-top: 5%;
+    padding-left: 8%;
+}
+.single{
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+}
+.rectangle{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.cLogo{
+    width: 100px;
+    height: 32px;
+}
+.paddingR{
+    padding-right: 8.25%;
+}
+.paddingR2{
+    padding-right: 8.50%;
+}
+.paddingL{
+    padding-left: 12.5%;
+}
+.paddingL2{
+    padding-left: 9.25%;
+}
+.paddingTop{
+    padding-top: 5%;
+}
+.font1{
+    font-family: Mont;
+    font-size: 18px;
+}
+
+.font2{
+    font-family: 'Mont';
+    color:#5F002B;
+    font-weight: bolder;
+}
+
+.regularFont{
+    font-family: Regular;
+    font-size: 19px;
+    color:#5F002B;
+}

@@ -34,7 +34,6 @@ class App extends Component {
             <BusinessRedo />
           </Route>
 
-
           <Route exact path="/pages/hamsterHotel">
             <HamsterHotelSite />
           </Route>
@@ -46,6 +45,7 @@ class App extends Component {
           <Route exact path="/pages/mockPuppy">
             <MockPuppySite />
           </Route>
+          
 
         </Router>
     );
