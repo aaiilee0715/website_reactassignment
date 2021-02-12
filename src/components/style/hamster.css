@@ -6,9 +6,10 @@
     background-color: white;
 }
 
-.hamsterBackToMain{
+/* .hamsterBackToMain{
     background: rgb(0, 3, 36, 1);
-}
+    color: white;
+} */
 
 .hamsterContainer {
     /* width: 80%; */
@@ -58,11 +59,12 @@ header li {
     border: 2px solid rgb(229, 254, 255, 1);
 }
 
-header a {
+header a, .hamsterBackToMain {
     text-decoration: none;
-    font: normal normal normal 20px/26px Dosis;
+    font: normal normal normal 19px/20px Dosis;
     letter-spacing: 0px;
     color: #FFFFFF;
+    
 } 
 
 /* Palm Trees Background */

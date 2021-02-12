@@ -163,7 +163,7 @@
     font-size: smaller;
 }
 
-hr{
+.puppyHr{
     color:rgba(95, 0, 43, 1);
     background-color: rgba(95, 0, 43, 1);
     height: 2px;

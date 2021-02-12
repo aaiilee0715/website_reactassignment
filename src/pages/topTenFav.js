@@ -5,7 +5,7 @@ import Top10MainDisplay from '../components/CardComponent/top10MainCard';
 const TopTenFavoriteCenter = () => {
   return (
     <>
-      <body className="top10MainBody">
+      <body className="top10Body">
         <div className="brightGreen align-item-start">
           <a className="nav-link" href='/'>Back To Main</a>
         </div>

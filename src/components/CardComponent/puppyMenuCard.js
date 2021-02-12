@@ -69,7 +69,7 @@ class PuppyMenuDisplay extends Component {
                                                 <h5>$15.99</h5>
                                             </div>
                                             <div className="col-12">
-                                                <hr />
+                                                <hr className="puppyHr" />
                                             </div>
                                         </div>
                                         <div className="row">
@@ -84,7 +84,7 @@ class PuppyMenuDisplay extends Component {
                                                 <h5>$13.99</h5>
                                             </div>
                                             <div className="col-12">
-                                                <hr />
+                                            <hr className="puppyHr" />
                                             </div>
                                         </div>
                                         <div className="row">
@@ -98,7 +98,7 @@ class PuppyMenuDisplay extends Component {
                                                 <h5>$10.99</h5>
                                             </div>
                                             <div className="col-12">
-                                                <hr />
+                                            <hr className="puppyHr" />
                                             </div>
                                         </div>
                                         <div className="row">
@@ -112,7 +112,7 @@ class PuppyMenuDisplay extends Component {
                                                 <h5>$8.99</h5>
                                             </div>
                                             <div className="col-12">
-                                                <hr />
+                                            <hr className="puppyHr" />
                                             </div>
                                         </div>
                                         <div className="row">
@@ -126,7 +126,7 @@ class PuppyMenuDisplay extends Component {
                                                 <h5>$6.99</h5>
                                             </div>
                                             <div className="col-12">
-                                                <hr />
+                                            <hr className="puppyHr" />
                                             </div>
                                         </div>
                                     </div>
