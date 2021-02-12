@@ -65,10 +65,10 @@
 
 .imgFloat {
   position: absolute;
-  left: 80%;
+  left: 100%;
   top: 100px;
   z-index: 1;
-  width: 20%;
+  width: 40%;
   -webkit-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
@@ -263,6 +263,7 @@
 .top10MainBodyh4 {
   font-weight: bolder;
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* a {
@@ -382,10 +383,10 @@
 
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto
-}
+} */

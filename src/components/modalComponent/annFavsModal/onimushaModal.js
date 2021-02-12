@@ -1,31 +1,30 @@
-import React, { useState } from 'react';
-import { Modal, Button, Image } from 'react-bootstrap';
+import React, { useState, setShow } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 
-import '../style/top10Main.css';
-import OnimushaPix from '../images/top10FavImage/onimusha-warlords-screenshot-02-ps4-us-15jan2018.jpg';
-function AnnModalArea(props) {
-    const [show, setShow] = useState(false);
+import '../../style/top10Main.css';
+import OnimushaPix from '../../images/top10FavImage/onimusha-warlords-screenshot-02-ps4-us-15jan2018.jpg';
+import AnnPix from '../../images/top10FavImage/Ann.jpg';
+function OnimushaModalArea(props) {
+    const [lgShow, setLgShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleClose = () => setLgShow(false);
+
 
     return (
         <>
-            <span className="badge animePurple" onClick={handleShow}>
-                SEE ANN'S REVIEW
-      </span>
-
-            <Modal
-                show={show}
-                onHide={handleClose}
-                backdrop="static"
-                keyboard={false}
+            <span className="badge animePurple" onClick={() => setLgShow(true)}>SEE ANN'S REVIEW</span>
+            <Modal className="top10MainBodyh4"
+                size="lg"
+                show={lgShow}
+                onHide={() => setLgShow(false)}
+                aria-labelledby="example-modal-sizes-title-lg"
             >
-                {/* <Image src={props.src} onClick={handleShow} class="fullWidth imgFloat">
-                </Image> */}
+                <img src={AnnPix} className="fullWidth imgFloat" />
                 <Modal.Header closeButton>
-                    <h2 className="modal-title" id="exampleModalLabel">Onimusha: Warlords (ps2)
+                    <Modal.Title id="example-modal-sizes-title-lg">
+                        <h2 className="modal-title" id="example-modal-sizes-title-lg">Onimusha: Warlords (ps2)
                 <span className="badge badge-pill badge-primary">#VideoGame</span></h2>
+                    </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div class="row">
@@ -61,12 +60,11 @@ function AnnModalArea(props) {
                 <Modal.Footer>
                     <Button variant="transparent" onClick={handleClose}>
                         Close
-          </Button>
+                            </Button>
                 </Modal.Footer>
             </Modal>
-
 
         </>
     );
 }
-export default AnnModalArea;
+export default OnimushaModalArea;

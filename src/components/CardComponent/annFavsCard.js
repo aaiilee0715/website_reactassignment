@@ -12,8 +12,13 @@ import OverlordCarouselPix from '../images/top10FavImage/OverlordCarousel.png';
 import NoblesseCarouselPix from '../images/top10FavImage/NoblesseCarousel.png';
 import YoshiCarouselPix from '../images/top10FavImage/YoshiCarousel.png';
 
+import OnimushaModal from '../modalComponent/annFavsModal/onimushaModal';
+import ZeldaModal from '../modalComponent/annFavsModal/zeldaModal';
+import CrashModal from '../modalComponent/annFavsModal/crashModal';
+import RivalSchoolModalArea from '../modalComponent/annFavsModal/rivalSchoolModal';
+import YoshiModalArea from '../modalComponent/annFavsModal/yoshiModal';
 
-import AnnModal from '../modalComponent/annFavsModal';
+
 class AnnFavsDisplay extends Component {
     render() {
         return (
@@ -129,10 +134,9 @@ class AnnFavsDisplay extends Component {
                             </div>
                             <div className="col-9">
                                 <h4>Onimusha: Warlords<br />
-                                    <AnnModal
+                                    <OnimushaModal
                                     />
                                 </h4>
-
                             </div>
                         </div>
                         <hr />
@@ -144,7 +148,8 @@ class AnnFavsDisplay extends Component {
                             </div>
                             <div className="col-9">
                                 <h4>Zelda: Ocarina of Time<br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                    <ZeldaModal
+                                    />
                                 </h4>
                             </div>
                         </div>
@@ -157,7 +162,8 @@ class AnnFavsDisplay extends Component {
                             </div>
                             <div className="col-9">
                                 <h4>Crash Bandicoot<br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                    <CrashModal
+                                    />
                                 </h4>
                             </div>
                         </div>
@@ -170,7 +176,8 @@ class AnnFavsDisplay extends Component {
                             </div>
                             <div className="col-9">
                                 <h4>Rival Schools: United by Fate<br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                    <RivalSchoolModalArea
+                                    />
                                 </h4>
                             </div>
                         </div>
@@ -183,7 +190,8 @@ class AnnFavsDisplay extends Component {
                             </div>
                             <div className="col-9">
                                 <h4>Yoshi Story<br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                    <YoshiModalArea
+                                    />
                                 </h4>
                             </div>
                         </div>
