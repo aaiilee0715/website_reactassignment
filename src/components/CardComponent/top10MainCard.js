@@ -160,18 +160,18 @@ class Top10MainDisplay extends Component {
                                     <span className="cardNum">1</span>
                                 </div>
                                 <div className="col-9">
-                                    <h4 className="top10MainPageh4">Pokemon<br />
+                                    <h4 className="top10MainBodyh4">Pokemon<br />
                                         <span className="badge animePurple">#ANIME</span>
                                     </h4>
                                 </div>
                             </div>
-                            <hr className="top10MainPageHr" />
+                            <hr className="top10MainBodyhr" />
                             <div className="row center topTwoV2 topTwoTitle vertical-center smallShadow">
                                 <div className="col-3 cardCircleLeft">
                                     <span className="cardNum">2</span>
                                 </div>
                                 <div className="col-9">
-                                    <h4 className="top10MainPageh4">Plok<br />
+                                    <h4 className="top10MainBodyh4">Plok<br />
                                         <span className="badge badge-primary">#VIDEOGAME</span>
                                     </h4>
                                 </div>
@@ -190,7 +190,7 @@ class Top10MainDisplay extends Component {
                                     </h4>
                                 </div>
                             </div>
-                            <hr className="top10MainPageHr" />
+                            <hr className="top10MainBodyhr" />
                             <div className="row center topTwoV2 topTwoTitle vertical-center smallShadow">
                                 <div className="col-3 cardCircleLeft">
                                     <span className="cardNum">2</span>
@@ -207,7 +207,7 @@ class Top10MainDisplay extends Component {
                 <nav>
                     <div id="copyright" className="row pastelPurple">
                         <div className="col-12">
-                            <p className="textCenter top10MainP">COPYRIGHT © 2020 | JOSEPH RACCA & ANOTHAY CHANSY</p>
+                            <p className="textCenter top10MainBodyp">COPYRIGHT © 2020 | JOSEPH RACCA & ANOTHAY CHANSY</p>
                         </div>
                     </div>
                 </nav>

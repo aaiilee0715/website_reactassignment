@@ -6,7 +6,7 @@ import AnnFavsDisplay from '../../components/CardComponent/annFavsCard';
 const AnnsFavPageCenter = () => {
     return(
         <>
-         <body className="top10MainBody">
+         <body className="top10Body">
         <AnnFavsDisplay />
         </body>
         </>
