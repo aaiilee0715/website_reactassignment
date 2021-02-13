@@ -29,7 +29,7 @@ class Top10MainDisplay extends Component {
                             J.RACCA
                     </Dropdown.Toggle>
                         <Dropdown.Menu>
-                            <Dropdown.Item href="/pages/mockPuppyPages/JosephFavsPage">Joseph's Faves</Dropdown.Item>
+                            <Dropdown.Item href="/pages/top10FavePages/josephFavs">Joseph's Faves</Dropdown.Item>
                             <Dropdown.Item href="#/action-2" target="_blank">More About Joseph</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
@@ -52,7 +52,7 @@ class Top10MainDisplay extends Component {
                 </ul>
                 {/* <!-- OUR PHOTOS AND TITLE HERE --> */}
                 <div className="center">
-                    <a href="/pages/mockPuppyPages/JosephFavsPage">
+                    <a href="/pages/top10FavePages/josephFavs">
                         <img src={JosephPix} className="fullWidth imgFloatLeft shadow m-5"
                             alt="a photo of Joseph smiling, with glasses, with an illustrated art flair" />
                     </a>

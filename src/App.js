@@ -24,6 +24,7 @@ import JosephFavsPage from './pages/top10FavePages/josephFavs';
 import AnnFavsPage from './pages/top10FavePages/annFavs';
 import AboutAnnPage from './pages/top10FavePages/aboutAnn';
 
+
 class App extends Component {
   render() {
     return (
@@ -73,7 +74,7 @@ class App extends Component {
           <Top10MainPage />
           </Route>
 
-          <Route exact path="/pages/mockPuppyPages/JosephFavsPage">
+          <Route exact path="/pages/top10FavePages/josephFavs">
           <JosephFavsPage />
           </Route>
 

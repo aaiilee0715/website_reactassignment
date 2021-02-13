@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../style/top10Main.css';
 import { Dropdown, Carousel } from 'react-bootstrap';
-
 import AnnFavsCardComponent from '../CardComponent/annFavsUI';
+// <!--Import Pictures--->
 import GlassesPix from '../images/top10FavImage/Glasses.svg';
 import AnnTruePix from '../images/top10FavImage/annTrue.jpg';
 import OnimushaCarouselPix from '../images/top10FavImage/omimushaCarousel.png';
@@ -33,7 +33,7 @@ class AnnFavsDisplay extends Component {
                             J.RACCA
                     </Dropdown.Toggle>
                         <Dropdown.Menu>
-                            <Dropdown.Item href="/pages/mockPuppyPages/JosephFavsPage">Joseph's Faves</Dropdown.Item>
+                            <Dropdown.Item href="/pages/top10FavePages/josephFavs">Joseph's Faves</Dropdown.Item>
                             <Dropdown.Item href="#/action-2" target="_blank">More About Joseph</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
