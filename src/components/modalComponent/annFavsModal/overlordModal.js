@@ -40,11 +40,11 @@ function OverlordModalArea() {
                             <p>
                                 Overlord is one of those anime titles that we have seen a million times over in the past
                                 few years.
-                                The whole “Player is stuck in an online game” story has been done to death thanks to
+                                <br/><br/>The whole “Player is stuck in an online game” story has been done to death thanks to
                                 .Hack// and Sword Art
                                 Online; but what makes Overlord stand out is that it’s done from a different perspective
                                 that I’ve always
-                                wanted to see: What happens if a villain is stuck in the game? Overlord answers this
+                                wanted to see: <br/><br/>What happens if a villain is stuck in the game? Overlord answers this
                                 question and goes deeper
                                 into the realms of personal morality taking a back seat to keeping up appearances… Plus
                                 a cast of amusing demons keeps you wanting more.

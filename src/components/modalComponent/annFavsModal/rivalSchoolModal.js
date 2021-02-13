@@ -46,7 +46,7 @@ function RivalSchoolModalArea() {
                                 by
                                 being called in when a player has enough 'vigor' for a Team Up attack, done by pressing
                                 a punch and kick
-                                button of the same pressure. The Team Ups are some kind of double team attack by the
+                                button of the same pressure. <br/><br/>The Team Ups are some kind of double team attack by the
                                 character and partner,
                                 or (for most female characters' Team Ups) heal the main character or give them more
                                 vigor.

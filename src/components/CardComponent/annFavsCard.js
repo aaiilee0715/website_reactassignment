@@ -178,7 +178,7 @@ class AnnFavsDisplay extends Component {
                                 <span className="cardNum"></span>
                             </div>
                             <div className="col-9">
-                                <h4>Rival Schools: United by Fate<br />
+                                <h4>Rival Schools<br />
                                     <RivalSchoolModalArea
                                     />
                                 </h4>
@@ -281,13 +281,6 @@ class AnnFavsDisplay extends Component {
                         <hr />
                     </div>
                 </div>
-
-
-
-
-
-
-
 
                 <nav>
                     <div id="copyright" className="row pastelPurple">

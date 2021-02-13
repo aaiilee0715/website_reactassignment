@@ -40,7 +40,7 @@ function NoblessModalArea() {
                             <p>
                                 Cadis Etrama di Raizel wakes up from 820-years long sleep and starts a new life as a
                                 high school student.
-                                His peaceful days as a student are soon interrupted as his new human friends are
+                                <br/><br/>His peaceful days as a student are soon interrupted as his new human friends are
                                 assaulted by mysterious
                                 attackers with superhuman abilities.
                             </p>

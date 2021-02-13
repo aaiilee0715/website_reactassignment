@@ -11,8 +11,8 @@ import PlokPix from '../images/top10FavImage/plokCarousel.png';
 import HowlsPix from '../images/top10FavImage/HowlsCarousel.png';
 import PokemonPix from '../images/top10FavImage/PokemonCarousel.png';
 // Modal Component
-
-
+import PlokModal from '../modalComponent/josephFavsModal/PlokModal';
+import DonkeyKongModal from '../modalComponent/josephFavsModal/DonkeyKongModal';
 
 
 class JosephFavsDisplay extends Component {
@@ -120,8 +120,6 @@ class JosephFavsDisplay extends Component {
                             <h3>Top 5 Video Games</h3>
                         </div>
                         <hr />
-
-
                         {/* <!-- TESTER MODAL BUTTON --> */}
                         <div type="button" class="row center top52 topTwoTitle vertical-center smallShadow" data-toggle="modal"
                             data-target="#modal1">
@@ -130,7 +128,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>Plok (SNES)<br />
-                                    {/* <PlokModal /> */}
+                                    <PlokModal />
                                 </h4>
                             </div>
                         </div>
@@ -143,7 +141,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>Donkey Kong Country (SNES)<br />
-                                    {/* <DonkeyKongModal /> */}
+                                    <DonkeyKongModal />
                                 </h4>
                             </div>
                         </div>
@@ -258,8 +256,6 @@ class JosephFavsDisplay extends Component {
                         <hr />
                     </div>
                 </div>
-
-
                 <nav>
                     <div id="copyright" className="row pastelPurple">
                         <div className="col-12">
@@ -267,11 +263,6 @@ class JosephFavsDisplay extends Component {
                         </div>
                     </div>
                 </nav>
-
-
-
-
-
             </>
 
         );

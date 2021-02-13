@@ -39,12 +39,12 @@ function DiabolikLoversModalArea() {
                             <h4 className="top10MainBodyh4">Ann Review</h4>
                             <p>
                                 “The girl learns her fate amongst the beautiful scent of wild roses.
-                                The girl encounters them, as if being drawn there by the threads of fate.
-                                ‘Yours Truly is going to take her every first experience.’ ‘Tell me, do you hate me?
-                                Do you want to learn more about me?’ ‘Does it hurt? You poor thing... Okay, I'll make it
-                                hurt even more, little *****.’ ‘I know why you came to this house. This blood (of yours)
-                                is of the finest quality.’ ‘Humans are nothing more than containers of blood.’
-                                ‘Stay out of my business! Come any closer, and I'll destroy you!’
+                                The girl encounters them, as if being drawn there by the threads of fate.<br/><br/>
+                                ‘Yours Truly is going to take her every first experience.’ <br/>‘Tell me, do you hate me?
+                                <br/>Do you want to learn more about me?’<br/> ‘Does it hurt?You poor thing... Okay, I'll make it
+                                hurt even more, little *****.’<br/> ‘I know why you came to this house. <br/>This blood (of yours)
+                                is of the finest quality.’<br/> ‘Humans are nothing more than containers of blood.’
+                                <br/>‘Stay out of my business! <br/>Come any closer, and I'll destroy you!’
                             </p>
                         </div>
                     </div>

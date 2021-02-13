@@ -41,9 +41,9 @@ function YoshiModalArea() {
                             <p>
                                 The player may choose between two different game modes from the game's main menu: Story
                                 Mode and Trial Mode.
-                                Upon entering either mode, the player will be able to select a course, find out which
+                                <br/><br/>Upon entering either mode, the player will be able to select a course, find out which
                                 fruit will be the Lucky
-                                Fruit, and choose a Yoshi of desired color to play as. However, Trial Mode will be void
+                                Fruit, and choose a Yoshi of desired color to play as. <br/><br/>However, Trial Mode will be void
                                 of courses to play at
                                 the start of the game, as these will have to be unlocked by completing them in Story
                                 Mode. On each course,

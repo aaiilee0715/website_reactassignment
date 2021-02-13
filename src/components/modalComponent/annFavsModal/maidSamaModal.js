@@ -40,7 +40,7 @@ function MaidSamaModalArea() {
                             <p>
                             Misaki attends a school that until recently was boys only. Despite efforts to increase
                                 female recruitment,
-                                the student body is still 80% male, all of whom seem to be goofballs. As student
+                                the student body is still 80% male, all of whom seem to be goofballs. <br/><br/>As student
                                 president,
                                 Misaki makes it her mission to entice more girls to join. However, little does anyone
                                 know, this hard ass girl
