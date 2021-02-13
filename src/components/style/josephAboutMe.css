@@ -1,11 +1,11 @@
-josephBody {
+.josephBody {
     font-family: 'Roboto', sans-serif;
     color: white;
     padding: 10%;
     padding-top: 50px; padding-bottom: 2.5%;
     line-height: 1.5;
     background-color: rgb(36, 36, 36);
-    /* background-image: url('../../Images/aboutJosephImages/flowChartDig.png'); */
+    background-image: url('../../components/images/aboutJosephImage/flowChartDig.png');
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -63,7 +63,7 @@ josephBody {
     margin-top: -10px;
 }
 
-h1 {
+.Josephh1 {
     font-family: 'Caveat', cursive;
     font-weight: normal;
     font-size: 100px;
@@ -73,7 +73,7 @@ h1 {
     margin-top: -45px;
 }
 
-h2 {
+.Josephh2 {
     font-size: 40px;
     font-weight: 100;
     margin: 0px;
@@ -82,7 +82,7 @@ h2 {
     text-align: center;
 }
 
-h3 {
+.Josephh3 {
     font-family: 'Caveat', cursive;
     font-size: 60px;
     font-weight: normal;
@@ -100,7 +100,7 @@ strong{
     line-height: 90%;
 }
 
-p {
+.Josephp {
     font-size: 18px;
     letter-spacing: .25;
 }
@@ -170,19 +170,19 @@ a {
     border-bottom: solid 3px rgb(255, 255, 255);
 }
 
-a:visited {
+ /* a:visited {
     text-decoration: underline;
     color: rgb(255, 0, 221);
 }
 
-a:hover {
+ a:hover {
     border-bottom: solid 3px rgb(255, 0, 221);
     color: inherit;
     text-decoration: none;
 
-}
+} */
 
-.center {
+.headShot {
     display: block;
     margin-left: auto;
     margin-right: auto;

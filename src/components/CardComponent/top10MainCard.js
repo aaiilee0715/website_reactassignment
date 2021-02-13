@@ -7,8 +7,6 @@ import JosephPix from '../images/top10FavImage/josephTrue.jpg';
 import AnnPix from '../images/top10FavImage/annTrue.jpg';
 import OnimushaCarouselPix from '../images/top10FavImage/omimushaCarousel.png';
 import OverlordCarouselPix from '../images/top10FavImage/OverlordCarousel.png';
-import ZeldaPix from '../images/top10FavImage/Zelda.jpg';
-import MaidSamaPix from '../images/top10FavImage/MaidSama.jpg';
 import NoblesseCarouselPix from '../images/top10FavImage/NoblesseCarousel.png';
 import AttackCarouselPix from '../images/top10FavImage/AttackCarousel.png';
 import CrashCarouselPix from '../images/top10FavImage/CrashCarousel.png';
@@ -30,7 +28,7 @@ class Top10MainDisplay extends Component {
                     </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item href="/pages/top10FavePages/josephFavs">Joseph's Faves</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2" target="_blank">More About Joseph</Dropdown.Item>
+                            <Dropdown.Item href="/pages/top10FavePages/aboutJoseph" target="_blank">More About Joseph</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                     <li class="nav-item">

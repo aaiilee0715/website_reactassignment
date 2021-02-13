@@ -1,11 +1,12 @@
-import React, {useState, lgShow} from 'react';
-import {Modal, Button} from 'react-bootstrap';
+import React, { useState, lgShow } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 import '../../style/top10Main.css';
 
-import PlokPix from '../../images/top10FavImage/plokSS.png';
-import PlokYTPix from '../../images/top10FavImage/plokYT.png';
 import JosephPix from '../../images/top10FavImage/Joseph.jpg';
-function PlokModalArea() {
+import PacManSSPix from '../../images/top10FavImage/pacmanss.jpg';
+import PacManYTPix from '../../images/top10FavImage/PacmanYT.png';
+
+function PacManModalArea() {
     const [lgShow, setLgShow] = useState(false);
     const handleClose = () => setLgShow(false);
     return (
@@ -20,36 +21,28 @@ function PlokModalArea() {
                 <img src={JosephPix} className="fullWidth imgFloat" />
                 <Modal.Header closeButton>
                     <Modal.Title id="example-modal-sizes-title-lg">
-                        <h2 className="modal-title" id="exampleModalLabel">Plok  <span
-                                className="badge badge-pill badge-primary">#VideoGame</span></h2>
+                        <h2 className="modal-title" id="exampleModalLabel">Kirby's Avalanche <span
+                            className="badge badge-pill badge-primary">#VideoGame</span></h2>
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="row">
                         <div className="col-5 vl">
-                            <img src={PlokPix} className="fullWidth" />
-                            Screenshot of Plok
+                            <img src={PacManSSPix} className="fullWidth" />
+                            Screenshot of Kirby's Avalanche
                         <hr />
-                            <img src={PlokYTPix}  className="fullWidth" />
+                            <img src={PacManYTPix} className="fullWidth" />
                             <div>
-                                <a href="https://www.youtube.com/watch?v=hx9vJT4HAcY"  type="button"
+                                <a href="https://www.youtube.com/watch?v=Y8t7-9PHCBI" type="button"
                                     className="sm-btn btn-primary red center" target="_blank">WATCH REVIEW</a>
                             </div>
                         </div>
                         <div className="col-7">
                             <h4>Joseph Review</h4>
                             <p>
-                            One of the earliest games I can remember from my childhood is this game right here:
-                                PLOK.<br />
-                                <br />
-                                From wiki: <strong>Plok</strong> <em>is a side-scrolling platform game developed by
-                                    Software Creations and released for the Super Nintendo Entertainment System in 1993.
-                                    It is a traditional platform game starring a red-hooded character named Plok.</em>
-                                <br />
-                                <br />
-                                Back in the day, me and my siblings would play all day long trying to beat the levels
-                                but because it would reset every time we tried to play, we would never get super far.
-                                LOL.
+                                Pac-Man World 2 is a video game by Namco USA for Xbox, Nintendo GameCube, 
+                                PlayStation 2, Game Boy Advance, and Microsoft Windows released in 2002.  <br />  <br /> Like the original 
+                                Pac-Man World, the player controls the character of Pac-Man in a 3D platforming environment.
                                 <br />
                                 <br />
                             </p>
@@ -65,4 +58,4 @@ function PlokModalArea() {
         </>
     );
 }
-export default PlokModalArea;
+export default PacManModalArea;

@@ -34,7 +34,7 @@ class AnnFavsDisplay extends Component {
                     </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item href="/pages/top10FavePages/josephFavs">Joseph's Faves</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2" target="_blank">More About Joseph</Dropdown.Item>
+                            <Dropdown.Item href="/pages/top10FavePages/aboutJoseph" target="_blank">More About Joseph</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                     <li class="nav-item">
@@ -105,11 +105,11 @@ class AnnFavsDisplay extends Component {
                         <hr />
                         <div>
                             <p className="blackText pCenter top10MainBodyp">
-                                Humanistic, friendly, altruistic, sociable, and reformative.
-                                The many symbols you will find about her Aquarius personality traits.
+                                Humanistic, <strong>friendly,</strong> altruistic, sociable, and reformative.
+                                The many symbols you will find about her Aquarius personality traits.<br/><br/>
                                 It was difficult for her to chose when requested about her top favorite lists of
                                 video games, and anime lists.
-                                She had many. This project is challenging, yet enjoyable for her.
+                                She had many. This project is challenging, yet <strong>enjoyable</strong> for her.
                     </p>
                         </div>
                         <hr />

@@ -13,7 +13,14 @@ import PokemonPix from '../images/top10FavImage/PokemonCarousel.png';
 // Modal Component
 import PlokModal from '../modalComponent/josephFavsModal/PlokModal';
 import DonkeyKongModal from '../modalComponent/josephFavsModal/DonkeyKongModal';
-
+import SuperMarioModalArea from '../modalComponent/josephFavsModal/SuperMarioModal';
+import KirbyModalArea from '../modalComponent/josephFavsModal/KirbyModal';
+import PacManModalArea from '../modalComponent/josephFavsModal/PacManModal';
+import FairyTaleModalArea from '../modalComponent/josephFavsModal/FairyTaleModal';
+import AttackOnTitanModalArea from '../modalComponent/josephFavsModal/AttackOnTitanModal';
+import PokemonModalArea from '../modalComponent/josephFavsModal/PokemonModal';
+import DigimonModalArea from '../modalComponent/josephFavsModal/DigimonModal';
+import HowlsModalArea from '../modalComponent/josephFavsModal/HowlsMovingCastleModal';
 
 class JosephFavsDisplay extends Component {
     render() {
@@ -27,7 +34,7 @@ class JosephFavsDisplay extends Component {
                     </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item href="/pages/top10FavePages/josephFavs">Joseph's Faves</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2" target="_blank">More About Joseph</Dropdown.Item>
+                            <Dropdown.Item href="/pages/top10FavePages/aboutJoseph" target="_blank">More About Joseph</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                     <li class="nav-item">
@@ -140,7 +147,7 @@ class JosephFavsDisplay extends Component {
                                 <span class="cardNum"></span>
                             </div>
                             <div class="col-9">
-                                <h4>Donkey Kong Country (SNES)<br />
+                                <h4>Donkey Kong (SNES)<br />
                                     <DonkeyKongModal />
                                 </h4>
                             </div>
@@ -153,8 +160,8 @@ class JosephFavsDisplay extends Component {
                                 <span class="cardNum"></span>
                             </div>
                             <div class="col-9">
-                                <h4>Super Mario Bros. (SNES)<br />
-                                    {/* <SuperMarioBrosModal /> */}
+                                <h4>Super Mario Bros (SNES)<br />
+                                    <SuperMarioModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -167,7 +174,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>Kirby's Avalanche (SNES)<br />
-                                    {/* <KirbysModal /> */}
+                                    <KirbyModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -180,7 +187,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>PacMan World 2 (PS2)<br />
-                                    {/* <PacManModal /> */}
+                                    <PacManModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -200,7 +207,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>Fairy Tale<br />
-                                    {/* <FairyTaleModal /> */}
+                                    <FairyTaleModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -213,7 +220,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>Attack On Titan<br />
-                                    {/* <AttackOnTitanModal /> */}
+                                    <AttackOnTitanModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -225,7 +232,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>Pokemon<br />
-                                    {/* <PokemonModal /> */}
+                                    <PokemonModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -237,7 +244,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>Digimon<br />
-                                    {/* <DigimonModal /> */}
+                                    <DigimonModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -249,7 +256,7 @@ class JosephFavsDisplay extends Component {
                             </div>
                             <div class="col-9">
                                 <h4>Howl's Moving Castle<br />
-                                    {/* <HowlsMovingCastleModal /> */}
+                                    <HowlsModalArea />
                                 </h4>
                             </div>
                         </div>

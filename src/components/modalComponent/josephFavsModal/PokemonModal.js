@@ -1,11 +1,12 @@
-import React, {useState, lgShow} from 'react';
-import {Modal, Button} from 'react-bootstrap';
+import React, { useState, lgShow } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 import '../../style/top10Main.css';
 
-import PlokPix from '../../images/top10FavImage/plokSS.png';
-import PlokYTPix from '../../images/top10FavImage/plokYT.png';
 import JosephPix from '../../images/top10FavImage/Joseph.jpg';
-function PlokModalArea() {
+import PokemonSSPix from '../../images/top10FavImage/PokemonSS.jpg';
+import PokemonYTPix from '../../images/top10FavImage/PokemonYT.png';
+
+function PokemonModalArea() {
     const [lgShow, setLgShow] = useState(false);
     const handleClose = () => setLgShow(false);
     return (
@@ -20,36 +21,31 @@ function PlokModalArea() {
                 <img src={JosephPix} className="fullWidth imgFloat" />
                 <Modal.Header closeButton>
                     <Modal.Title id="example-modal-sizes-title-lg">
-                        <h2 className="modal-title" id="exampleModalLabel">Plok  <span
-                                className="badge badge-pill badge-primary">#VideoGame</span></h2>
+                        <h2 className="modal-title" id="exampleModalLabel">Pokemon <span
+                            className="badge badge-pill badge-primary">#Anime</span></h2>
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="row">
                         <div className="col-5 vl">
-                            <img src={PlokPix} className="fullWidth" />
-                            Screenshot of Plok
+                            <img src={PokemonSSPix} className="fullWidth" />
+                            Screenshot of Pokemon
                         <hr />
-                            <img src={PlokYTPix}  className="fullWidth" />
+                            <img src={PokemonYTPix} className="fullWidth" />
                             <div>
-                                <a href="https://www.youtube.com/watch?v=hx9vJT4HAcY"  type="button"
+                                <a href="https://www.youtube.com/watch?v=cZpvCC6_RiU" type="button"
                                     className="sm-btn btn-primary red center" target="_blank">WATCH REVIEW</a>
                             </div>
                         </div>
                         <div className="col-7">
                             <h4>Joseph Review</h4>
                             <p>
-                            One of the earliest games I can remember from my childhood is this game right here:
-                                PLOK.<br />
+                                Who's that Pokemon?! It's Mew! Oh wait, there's Mew Two. A classic. Saturday morning cartoons, Ash, Brock, Misty, Pikaaaaaa. I miss this show and I really enjoyed watching the series as well as playing the games (Blue and Crystal are the ones I played the most).<br />
                                 <br />
-                                From wiki: <strong>Plok</strong> <em>is a side-scrolling platform game developed by
-                                    Software Creations and released for the Super Nintendo Entertainment System in 1993.
-                                    It is a traditional platform game starring a red-hooded character named Plok.</em>
+                                From wiki:<em>Pokémon, also known as Pocket Monsters in Japan, is a Japanese media franchise managed by the Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1995, and is centered on fictional creatures called "Pokémon", which humans, known as Pokémon Trainers, catch and train to battle each other for sport. Works within the franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch 'Em All".</em>
                                 <br />
                                 <br />
-                                Back in the day, me and my siblings would play all day long trying to beat the levels
-                                but because it would reset every time we tried to play, we would never get super far.
-                                LOL.
+                                Maybe one day I'll rewatch a few episodes (maybe even the newer seasons) but for now I'll let the nostalgia play in my mind.
                                 <br />
                                 <br />
                             </p>
@@ -65,4 +61,4 @@ function PlokModalArea() {
         </>
     );
 }
-export default PlokModalArea;
+export default PokemonModalArea;
