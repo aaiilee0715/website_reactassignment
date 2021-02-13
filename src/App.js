@@ -22,7 +22,7 @@ import MockPuppyPhoto from './pages/mockPuppyPages/mockPuppyPhoto';
 import Top10MainPage from './pages/topTenFav';
 import JosephFavsPage from './pages/top10FavePages/josephFavs';
 import AnnFavsPage from './pages/top10FavePages/annFavs';
-
+import AboutAnnPage from './pages/top10FavePages/aboutAnn';
 
 class App extends Component {
   render() {
@@ -79,6 +79,10 @@ class App extends Component {
 
           <Route exact path="/pages/mockPuppyPages/AnnFavsPage">
           <AnnFavsPage />
+          </Route>
+
+          <Route exact path="/pages/top10FavePages/aboutAnn">
+          <AboutAnnPage />
           </Route>
 
         </Router>

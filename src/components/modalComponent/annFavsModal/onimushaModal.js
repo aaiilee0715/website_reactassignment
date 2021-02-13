@@ -22,8 +22,8 @@ function OnimushaModalArea(props) {
                 <img src={AnnPix} className="fullWidth imgFloat" />
                 <Modal.Header closeButton>
                     <Modal.Title id="example-modal-sizes-title-lg">
-                        <h2 className="modal-title" id="example-modal-sizes-title-lg">Onimusha: Warlords (ps2)
-                <span className="badge badge-pill badge-primary">#VideoGame</span></h2>
+                        <h2 className="modal-title" id="example-modal-sizes-title-lg">Onimusha: Warlords (ps2) <span 
+                className="badge badge-pill badge-primary">#VideoGame</span></h2>
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>

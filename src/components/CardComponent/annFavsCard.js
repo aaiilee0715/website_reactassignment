@@ -1,23 +1,26 @@
 import React, { Component } from 'react';
 import '../style/top10Main.css';
-import { Modal, Button, Dropdown, Carousel } from 'react-bootstrap';
+import { Dropdown, Carousel } from 'react-bootstrap';
 
 import AnnFavsCardComponent from '../CardComponent/annFavsUI';
 import GlassesPix from '../images/top10FavImage/Glasses.svg';
 import AnnTruePix from '../images/top10FavImage/annTrue.jpg';
-import AnnJPGPix from '../images/top10FavImage/Ann.jpg';
 import OnimushaCarouselPix from '../images/top10FavImage/omimushaCarousel.png';
 import CrashCarouselPix from '../images/top10FavImage/CrashCarousel.png';
 import OverlordCarouselPix from '../images/top10FavImage/OverlordCarousel.png';
 import NoblesseCarouselPix from '../images/top10FavImage/NoblesseCarousel.png';
 import YoshiCarouselPix from '../images/top10FavImage/YoshiCarousel.png';
-
+// <!---Modal Component---->
 import OnimushaModal from '../modalComponent/annFavsModal/onimushaModal';
 import ZeldaModal from '../modalComponent/annFavsModal/zeldaModal';
 import CrashModal from '../modalComponent/annFavsModal/crashModal';
 import RivalSchoolModalArea from '../modalComponent/annFavsModal/rivalSchoolModal';
 import YoshiModalArea from '../modalComponent/annFavsModal/yoshiModal';
-
+import InuyashaModalArea from '../modalComponent/annFavsModal/inuyashaModal';
+import MaidSamaModalArea from '../modalComponent/annFavsModal/maidSamaModal';
+import DiabolikLoversModalArea from '../modalComponent/annFavsModal/diabolikLoversModal';
+import NoblessModalArea from '../modalComponent/annFavsModal/noblessModal';
+import OverlordModalArea from '../modalComponent/annFavsModal/overlordModal';
 
 class AnnFavsDisplay extends Component {
     render() {
@@ -46,7 +49,7 @@ class AnnFavsDisplay extends Component {
                     </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item href="/pages/mockPuppyPages/AnnFavsPage">Ann's Faves</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2" target="_blank">More About Ann</Dropdown.Item>
+                            <Dropdown.Item href="/pages/mockPuppyPages/AboutAnnPage" target="_blank">More About Ann</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </ul>
@@ -111,7 +114,7 @@ class AnnFavsDisplay extends Component {
                         </div>
                         <hr />
                         <div className="center">
-                            <a href="../pages/moreAboutAnn.html" target="_blank">
+                            <a href="/pages/top10FavePages/aboutAnn" target="_blank">
                                 <button type="button" className="btn tabSalmon">See
                                 More
                                 About
@@ -211,10 +214,9 @@ class AnnFavsDisplay extends Component {
                                 <span className="cardNum"></span>
                             </div>
                             <div className="col-9">
-                                <h4>
-                                    Inuyasha
+                                <h4>Inuyasha
                             <br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                  <InuyashaModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -229,7 +231,7 @@ class AnnFavsDisplay extends Component {
                                 <h4>
                                     Maid Sama
                             <br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                    <MaidSamaModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -243,7 +245,7 @@ class AnnFavsDisplay extends Component {
                                 <h4>
                                     Diabolik Lovers
                             <br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                    <DiabolikLoversModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -257,7 +259,7 @@ class AnnFavsDisplay extends Component {
                                 <h4>
                                     Noblesse: Awakening
                             <br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                    <NoblessModalArea />
                                 </h4>
                             </div>
                         </div>
@@ -270,9 +272,9 @@ class AnnFavsDisplay extends Component {
                             </div>
                             <div className="col-9">
                                 <h4>
-                                    overworld
+                                    overlord
                             <br />
-                                    <span className="badge animePurple">SEE ANN'S REVIEW</span>
+                                    <OverlordModalArea />
                                 </h4>
                             </div>
                         </div>

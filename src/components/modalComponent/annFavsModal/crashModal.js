@@ -19,8 +19,7 @@ function CrashModalArea() {
                 <img src={AnnPix} className="fullWidth imgFloat" />
                 <Modal.Header closeButton>
                     <Modal.Title id="example-modal-sizes-title-lg">
-                        <h2 className="modal-title" id="exampleModalLabel">Crash Bandicoot(Ps1)
-                        <span
+                        <h2 className="modal-title" id="exampleModalLabel">Crash Bandicoot(Ps1) <span
                                 className="badge badge-pill badge-primary">#VideoGame</span></h2>
                     </Modal.Title>
                 </Modal.Header>

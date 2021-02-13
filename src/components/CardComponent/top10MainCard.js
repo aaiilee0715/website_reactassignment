@@ -45,7 +45,7 @@ class Top10MainDisplay extends Component {
                     </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item href="/pages/mockPuppyPages/AnnFavsPage">Ann's Faves</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2" target="_blank">More About Ann</Dropdown.Item>
+                            <Dropdown.Item href="/pages/top10FavePages/aboutAnn" target="_blank">More About Ann</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
 
