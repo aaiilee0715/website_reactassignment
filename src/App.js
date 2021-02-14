@@ -6,8 +6,6 @@ import {
   Route,
 } from "react-router-dom";
 
-
-
 //Pages To import
 import MainPage from './pages/home';
 import CardDisplay from './components/CardComponent/card';
