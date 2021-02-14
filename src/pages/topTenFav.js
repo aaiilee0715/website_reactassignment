@@ -1,11 +1,17 @@
 import React from 'react';
+import '../components/style/top10Main.css';
+import Top10MainDisplay from '../components/CardComponent/top10MainCard';
 
-
-const TopTenFavorite = () => {
+const TopTenFavoriteCenter = () => {
   return (
     <>
-    <h3>Top 10 Fave</h3>
+      <body className="top10Body">
+        <div className="brightGreen align-item-start">
+          <a className="nav-link" href='/'>Back To Main</a>
+        </div>
+        <Top10MainDisplay />
+      </body>
     </>
   );
 }
-export default TopTenFavorite;
+export default TopTenFavoriteCenter;

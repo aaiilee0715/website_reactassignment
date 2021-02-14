@@ -1,0 +1,390 @@
+#maxWidth {
+  max-width: 1400px;
+}
+
+.nav-tabs {
+  border: 0px;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border: 0px;
+  background-color: #FFFE9D;
+  color: #98D8E9;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #FFFE9D;
+  background-color: #98D8E9;
+  border-color: #dee2e6 #dee2e6 #fff
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #BCFFC9;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: .25rem
+}
+
+.top10Body {
+  background-image: url('../images/top10FavImage/Background.png');
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.fullWidth {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.vl {
+  border-right: 1px solid rgb(136, 136, 136);
+  height: 100%;
+}
+
+.imgFloat {
+  position: absolute;
+  left: 100%;
+  top: 100px;
+  z-index: 1;
+  width: 40%;
+  -webkit-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  border: 10px;
+  border-color: white;
+  border-style: solid;
+}
+
+.imgFloatRight {
+  position: absolute;
+  left: 68%;
+  top: 50px;
+  z-index: 1;
+  max-width: 250px;
+  width: 20%;
+  -webkit-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  border: 10px;
+  border-color: white;
+  border-style: solid;
+}
+
+.imgFloatLeft {
+  position: absolute;
+  right: 68%;
+  top: 50px;
+  z-index: 1;
+  max-width: 250px;
+  width: 20%;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  border: 10px;
+  border-color: white;
+  border-style: solid;
+}
+
+/* ------------TEXT ALIGNMENT/SIZE ------------*/
+
+#mainLogo {
+  font-size: 100px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+#tagline {
+  font-size: 75px;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+.topTwoTitle {
+  font-size: 65px;
+}
+
+.topTwoSubtitle {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+/* * {
+  font-family: 'Open Sans', sans-serif;
+} */
+
+.josefin {
+  font-family: 'Josefin Slab', serif;
+}
+
+.parisienne {
+  font-family: 'Parisienne', cursive;
+}
+
+/* COLORS */
+
+.brightGreen {
+  background-color: #bcfffa;
+}
+
+.pastelGreen {
+  background-color: #bcffc9;
+}
+
+.pastelBlue {
+  background-color: #bbe9f5;
+}
+
+.pastelOrange {
+  background-color: #f2dfb1;
+}
+
+.pastelPurple {
+  background-color: #fad3ff;
+}
+
+.animePurple {
+  background-color: #ac54e3;
+  color: white;
+}
+
+.tabSalmon {
+  background-color: #FFB29C;
+  color: black;
+}
+
+/* SHADOW */
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.smallShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* MAIN PAGE CARD/BUTTON? */
+
+.topTwo {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px 10px 25px;
+  margin: 20px 20px 20px 20px;
+}
+
+.topTwoV2 {
+  background-color: white;
+  border-radius: 10px;
+  /* padding: 10px 10px 10px 25px; */
+  margin: 20px 20px 20px 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+/* need to make a div class that holds the top two and gives margins to the contents within */
+
+.colPad {
+  padding: 20px;
+}
+
+.navPad {
+  padding: 10px 300px 10px 300px;
+  font-size: 25px;
+}
+
+/* HR dotted */
+
+.top10MainBodyhr {
+  margin: 1rem;
+  border: 0;
+  border-top: 3px dotted rgba(0, 0, 0, .1)
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.cardNum {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70px;
+}
+
+.cardCircleLeft {
+  background-image: url("../images//top10FavImage/topTwoCircle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55px;
+}
+
+.ColCenter {
+  display: flex;
+  align-items: center;
+}
+
+.top10MainBodyh4 {
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  letter-spacing: 5px;
+} */
+
+#copyright {
+  font-size: 15px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.clip-circle {
+  border-radius: 400px;
+  border: 10px;
+  border-color: white;
+  border-style: solid;
+  /* OLD VALUE example: circle(245px, 140px, 50px); */
+  /* Yep, even the new clip-path has deprecated stuff. */
+}
+
+.top5{
+  background-color:#FFE8E2;
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+.top52{
+  background-color: #e5ecff;
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+.josephTopTitles{
+  color: white;
+  background-color: #5B69E6;
+  border-radius: 10px;
+  padding: 10px 10px 10px 25px;
+  margin: 20px 20px 20px 20px;
+
+}
+.annTopTitles{
+  color: #000000;
+  background-color: #B5C2E6;
+  border-radius: 10px;
+  padding: 10px 10px 10px 25px;
+  margin: 20px 20px 20px 20px;
+
+}
+
+
+
+.cardHeartLeft {
+  background-image: url("../images/top10FavImage/heart.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:#FEB29C;
+  border-radius: 8px 0 0 8px;
+  border-color: white;
+  border-width: 0 5px 0 0;
+  border-style: solid;
+}
+
+.cardHeartLeft2 {
+  background-image: url("../images/top10FavImage/heart.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #B5C2E6;
+  border-radius: 8px 0 0 8px;
+  border-color: white;
+  border-width: 0 5px 0 0;
+  border-style: solid;
+  height: 100%;
+
+}
+
+.profile{
+  padding:40px;
+}
+
+.top10MainBodyp{
+  margin: 20px;
+}
+.pCenter{
+  text-align: center;
+}
+
+.red{
+  background-color: rgb(189, 10, 10);
+  color: white;
+  border-color: rgb(189, 10, 10);
+  margin-top:10px;
+}
+
+.carouselText {
+  position: absolute;
+  max-width: 80%;
+  top: 30%;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+
+}
+
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto
+} */

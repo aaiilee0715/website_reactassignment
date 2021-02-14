@@ -1,0 +1,82 @@
+.annBody {
+    border-style: groove;
+    border-width: 40px;
+    padding: 50px;
+    position: relative;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.me {
+    font-size: 45px;
+    color: #946594;
+    font-family: fantasy;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+}
+
+ins {
+    color: rgb(247, 239, 245);
+    font-family: fantasy;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-decoration: none;
+    font-size: medium;
+    position: relative;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.annA {
+    text-align: center;
+    color: rgb(26, 94, 150);
+    font-family: fantasy;
+    padding-left: 0%;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+/* 
+em {
+    color: rgb(255, 248, 254);
+    padding-left: 40%;
+    font-size: small;
+    padding-left: 47%;
+    position: relative;
+} */
+
+.AnnAboutImg {
+    padding-left: 40%;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-decoration: underline;
+    font-size: medium;
+    position: relative;
+}
+
+.annAboutP {
+    font-family: fantasy;
+    font-size: 15px;
+    text-align: left;
+    color: #995594;
+    font-weight: bolder;
+}
+
+.hobby {
+    color: #995594;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#socialMedia {
+    padding-left: 40%;
+    margin: 0%;
+    border-style: solid;
+    border-color: rgb(199, 121, 167);
+}
