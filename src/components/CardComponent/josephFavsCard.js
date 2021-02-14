@@ -115,7 +115,7 @@ class JosephFavsDisplay extends Component {
                         </div>
                         <hr />
                         <div className="center">
-                            <a href="" target="_blank">
+                            <a href="/pages/top10FavePages/aboutJoseph" target="_blank">
                                 <button type=" button" className="btn animePurple">See More About
                             Joseph </button>
                             </a>

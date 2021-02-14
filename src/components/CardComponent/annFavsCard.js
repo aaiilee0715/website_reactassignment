@@ -49,7 +49,7 @@ class AnnFavsDisplay extends Component {
                     </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item href="/pages/mockPuppyPages/AnnFavsPage">Ann's Faves</Dropdown.Item>
-                            <Dropdown.Item href="/pages/mockPuppyPages/AboutAnnPage" target="_blank">More About Ann</Dropdown.Item>
+                            <Dropdown.Item href="/pages/top10FavePages/aboutAnn" target="_blank">More About Ann</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </ul>

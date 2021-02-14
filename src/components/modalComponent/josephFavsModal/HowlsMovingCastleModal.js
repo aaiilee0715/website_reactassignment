@@ -42,7 +42,7 @@ function HowlsModalArea() {
                             <p>
                                 I personally love all of Studio Gibli's movies. When I watch them, I really feel like I'm escaping reality, transported to an ethereal place. I think I might need to watch one of these, maybe even Howl's Moving Castle.<br />
                                 <br />
-                            From wiki: <strong>Digimon</strong> <em>, short for "Digital Monsters", is a Japanese media franchise encompassing virtual pet toys, anime, manga, video games, films and a trading card game. The franchise focuses on the eponymous creatures, who inhabit a "Digital World", a parallel universe that originated from Earth's various communication networks.</em>
+                            From wiki: <strong>Howl's Moving Castle</strong> <em>,is a 2004 Japanese animated fantasy film written and directed by Hayao Miyazaki. The film is loosely based on the 1986 novel of the same name by British author Diana Wynne Jones. The film was produced by Toshio Suzuki, animated by Studio Ghibli and distributed by Toho. The Japanese voice cast featured Chieko Baisho and Takuya Kimura, while the English dub version starred Jean Simmons, Emily Mortimer, Lauren Bacall, Christian Bale, Josh Hutcherson and Billy Crystal. </em>
                                 <br />
                                 <br />
                             If you want an escape, definitely go for this one or any of Studio Ghibli's works.
