@@ -4,7 +4,7 @@ import '../style/business.css';
 const BusinessMenuCenter = props => {
     return (
         <>
-            <div className="container-fluid">
+            <div className="">
                 <h2 className="title">{props.title}</h2>
                 <div className="row d-flex justify-content-between">
                     <h3 className="title2">{props.title2}</h3>
