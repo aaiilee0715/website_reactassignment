@@ -143,7 +143,7 @@ class BusinessMenuDisplay extends Component {
                                         </div>
                                     </div>
                                    
-                                        <div className="row d-flex justify-content-between">
+                                        <div className="row d-flex justify-content-between pb-3">
                                             <h3>Custom B-Fast Sandwich</h3>
                                             <h3>$6.00</h3>
                                         </div>
@@ -161,7 +161,7 @@ class BusinessMenuDisplay extends Component {
                                         </div>
                                 
                                    
-                                        <div className="row d-flex justify-content-between">
+                                        <div className="row d-flex justify-content-between pb-3">
                                             <h3>Dream Sandwich</h3>
                                             <h3>$ 6.65</h3>
                                  

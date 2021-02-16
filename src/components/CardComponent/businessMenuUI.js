@@ -4,7 +4,7 @@ import '../style/business.css';
 const BusinessMenuCenter = props => {
     return (
         <>
-            <div className="">
+          
                 <h2 className="title">{props.title}</h2>
                 <div className="row d-flex justify-content-between">
                     <h3 className="title2">{props.title2}</h3>
@@ -12,7 +12,7 @@ const BusinessMenuCenter = props => {
                     <p className="comment">{props.comment}</p>
                    
                 </div>
-            </div>
+         
 
         </>
     );
